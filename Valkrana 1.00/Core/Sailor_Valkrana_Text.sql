@@ -1,0 +1,5 @@
+INSERT OR REPLACE INTO LocalizedText
+        (Tag,    Language,    Text)
+VALUES	("LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_DETAILED_BODY",
+		"en_US",
+		"SPELLBOOK[NEWLINE][ICON_Bullet][COLOR_FLOAT_CULTURE]Scry[ENDCOLOR] - Permanently reveal a city belonging to target leader. Targets a different city per use, or increases your visibility radius over a city. Targets a random plot if no leaders have been met.[NEWLINE][ICON_Bullet][COLOR_MEDIUM_GREEN]Kinetic Barrier[ENDCOLOR] - Grant your units a +10 Combat Strength bonus when defending. Lasts 5 turns and stacks duration.[NEWLINE][ICON_Bullet][COLOR:72,39,111,255]Well of Souls[ENDCOLOR] - Heal your skeletons for an amount equal to 20 plus twice the number of units you have destroyed since you last used this spell.[NEWLINE][ICON_Bullet][COLOR:72,39,111,255]Skeleport[ENDCOLOR] - Spawn 2 to 3 hostile skeletons near target leader's city. Targets a random plot if no leaders have been met.");
