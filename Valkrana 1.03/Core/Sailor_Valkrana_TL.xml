@@ -1,0 +1,1791 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- ====================================================== -->
+		<!-- ====================================================== -->
+		<!-- ====================================================== -->
+		<!-- CHINESE (TRADITIONAL) -->
+		<!-- ====================================================== -->
+		<!-- ====================================================== -->
+		<!-- ====================================================== -->
+		<Row Tag="LOC_LEADER_SAILOR_VALKRANA_NAME" Language="zh_Hant_HK">
+			<Text>Valkrana</Text>
+			<!--Used on loading screen, pedia list, and civ pedia.-->
+		</Row>
+
+		<!--UA-->
+		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UA_NAME" Language="zh_Hant_HK">
+			<Text>秘術死靈術 </Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>圖書館有一個 [ICON_GreatWork_Relic] 遺物的插槽，您可以在第一次獲得每個 [ICON_GreatWork_Relic] 遺物時使用一次您的法術書，這些遺物可以保存以備後用。 在戰鬥中丟失或被摧毀的陸地單位有 10% 的機率被復活為由你控制的骷髏，每次成功復活之間的每次失敗都會增加 1%。 解鎖骷髏單位。</Text>
+		</Row>
+
+		<!--DOM-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_SAILOR_VALKRANA" Language="zh_Hant_HK">
+			<Text>
+				Valkrana Miraquinal，儘管你可能很尷尬，但你走出陰影的時候已經臨近了。 你的寶貝希望看到你的祖國在你的手下勝利，所以領導的衣缽是你的。 憑藉你相當的智慧、神秘的曲目和一群不知疲倦的骷髏。 . . 嗯，就像你說的，“為我的寶貝所做的，超越了善惡。”
+			</Text>
+		</Row>
+
+		<!--Capital-->
+		<Row Tag="LOC_CITY_NAME_SAILOR_SSSRASHIENSTA" Language="zh_Hant_HK">
+			<Text>斯拉希恩斯塔 </Text>
+		</Row>
+
+		<!--Civilopedia-->
+		<!--Extended Pedia entries can be found at the bottom of the document.-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_TITLE" Language="zh_Hant_HK">
+			<Text>Valkrana Miraquinal</Text>
+			<!--Used on leader pedia page.-->
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_SUBTITLE" Language="zh_Hant_HK">
+			<Text>Valkrana Miraquinal</Text>
+			<!--Used where?-->
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_QUOTE" Language="zh_Hant_HK">
+			<Text>
+				骷髏很可愛，因為它們的樣子。
+			</Text>
+		</Row>
+
+		<!--Spellbook Button-->
+		<Row Tag="LOC_SAILOR_VALKRANA_BUTTON_NIL" Language="zh_Hant_HK">
+			<Text>你沒有可用的法術。 找到 [ICON_GreatWork_Relic] 遺物來強化你的法術書。</Text>
+		</Row>
+		<Row Tag="LOC_SAILOR_VALKRANA_BUTTON_NOT_NIL" Language="zh_Hant_HK">
+			<Text>你的魔法書充滿了魔法。 你可以施法。 查找更多 [ICON_GreatWork_Relic] 遺物以進一步增強您的法術書。</Text>
+		</Row>
+
+		<!--Spellbook-->
+		<Row Tag="LOC_SAILOR_VALKRANA_POPUP_TITLE" Language="zh_Hant_HK">
+			<Text>拼寫書</Text>
+		</Row>
+		<Row Tag="LOC_SAILOR_VALKRANA_POPUP_SUBHEADER" Language="zh_Hant_HK">
+			<Text>選擇要施放的咒語，或合上這本書以備後用。</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_1_NAME" Language="zh_Hant_HK">
+			<Text>占卜</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_1_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>永久顯示屬於目標領導人的城市。 每次使用以不同的城市為目標，或增加您在城市上的能見度半徑。 如果沒有遇到領導者，則以隨機情節為目標。</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_2_NAME" Language="zh_Hant_HK">
+			<Text>動能屏障</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>防禦時為您的單位提供 +10 戰鬥力加值。 持續 5 回合併疊加持續時間。</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_3_NAME" Language="zh_Hant_HK">
+			<Text>靈魂之井</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>治療你的骷髏，治療量等於 20 加上自你上次使用此法術以來摧毀的單位數量的兩倍。 當前治療：</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_4_NAME" Language="zh_Hant_HK">
+			<Text>骨架端口</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_4_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>在目標領袖的城市附近生成 2 到 3 個敵對骷髏。 如果沒有遇到領導者，則以隨機情節為目標。</Text>
+		</Row>
+		<!--Spellbook Ability-->
+		<Row Tag="LOC_ABILITY_SAILOR_VALKRANA_SPELL2_NAME" Language="zh_Hant_HK">
+			<Text>動能屏障</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SAILOR_VALKRANA_SPELL2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>+10 [ICON_Strength] 防禦時的戰鬥力。</Text>
+		</Row>
+		<Row Tag="LOC_SAILOR_VALKRANA_BARRIER_PREVIEW_TEXT" Language="zh_Hant_HK">
+			<Text>+10 動能屏障</Text>
+		</Row>
+		<!--Targets-->
+		<Row Tag="LOC_SAILOR_VALKRANA_TARGETS_SUBHEADER" Language="zh_Hant_HK">
+			<Text>選擇一個目標。</Text>
+		</Row>
+
+		<!--UU-->
+		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UU_NAME" Language="zh_Hant_HK">
+			<Text>骨骼</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UU_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>獨特的持久近戰單位，取代了戰士。 首次建造圖書館時獲得 +10 [ICON_Strength] 戰鬥力，首次建造大學和研究實驗室時獲得 +20 [ICON_Strength] 戰鬥力。 可以修復改進和刪除功能。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SAILOR_VALKRANA_UU_NAME" Language="zh_Hant_HK">
+			<Text>骨骼</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SAILOR_VALKRANA_UU_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>獨特的持久近戰單位，取代了戰士。 首次建造圖書館時獲得 +10 [ICON_Strength] 戰鬥力，首次建造大學和研究實驗室時獲得 +20 [ICON_Strength] 戰鬥力。 可以修復改進和刪除功能。</Text>
+		</Row>
+
+		<!--UnitName-->
+		<Row Tag="LOC_UNITNAME_SUFFIX_SAILOR_SKELETONS" Language="zh_Hant_HK">
+			<Text>骨骼</Text>
+		</Row>
+
+		<!--Reanimation Floater-->
+		<Row Tag="LOC_SAILOR_VALKRANA_REANIMATED" Language="zh_Hant_HK">
+			<Text>[COLOR_FLOAT_CULTURE]骷髏復活了！[ENDCOLOR]</Text>
+		</Row>
+
+		<!--Diplomacy-->
+		<!--FIRST MEET-->
+		<!--First AI line-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>你好。 ...你好。 我是 Valkrana Miraquinal，偉大、強大、無與倫比的英雄 Ilyana Miraquinal 的右手和最大粉絲。 這就是我的介紹。</Text>
+		</Row>
+		<!--AI invitation to visit nearby City-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>我正在敲門，從我最近的城市觀看一場死靈風暴。 你也可以。 ...但不是我親愛的我。</Text>
+		</Row>
+		<!--AI accepts Human invitation-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>好</Text>
+		</Row>
+		<!--AI invitation to exchange Capital Information-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>斯拉希恩斯塔 到處都是類昆蟲、不死生物、地精和食人魔，如果人類希望它死，它可能就在那裡。 此外，還有凍糕。 ...你可以讓你的骨頭掛出來。</Text>
+		</Row>
+
+		<!--GREETINGS-->
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>嗨...嗨。 你好。</Text>
+		</Row>
+
+		<!--DELEGATION-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>好</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>你這些下流的下屬與我的寶貝沒有任何關係。</Text>
+		</Row>
+		<!--AI Requests -->
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>想像一下可愛的骷髏的嘎嘎聲。 一個人有一籃紫菜 &#38; 荔枝餅乾。 另一個有一個稀有的魔法物品。 哇。 那對你來說是個欺負者。</Text>
+		</Row>
+		<!--Human Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>好</Text>
+		</Row>
+
+		<!--EMBASSY-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>好</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>哦。 我的尷尬是否給人一種歡迎你的印象？ 對不起。 那是錯誤的。</Text>
+		</Row>
+		<!--AI Requests -->
+		<Row Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>一些骷髏會在你的首都閒置。 以官方身份。</Text>
+		</Row>
+		<!--Human Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>好</Text>
+		</Row>
+
+		<!--OPEN BORDERS-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>好</Text>
+		</Row>
+		<!--AI rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>爬回你的墳墓。 再見。</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>我的骷髏會穿過你的領地。</Text>
+		</Row>
+
+		<!--DECLARE FRIENDSHIP-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>什麼？ 為什麼？ ...好它確實在“凡人：他們是什麼以及他們為什麼還要打擾存在？”中讀到。 你經常需要保持你有朋友的幻想。</Text>
+		</Row>
+		<!--AI Rejects from human -->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>再見。</Text>
+		</Row>
+		<!--AI Requests friendship from human-->
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>我們不是朋友。 但我們的敵人不需要知道這一點。 我將從宣傳開始。</Text>
+		</Row>
+		<!--Human accepts AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>你也是。 再見。</Text>
+		</Row>
+		<!--Human rejects AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>好。 你也是。 再見。</Text>
+		</Row>
+
+		<!--ALLIANCE-->
+		<!--AI Requests an alliance from human-->
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>共謀將符合我們的最大利益。 嗯，彼此。</Text>
+		</Row>
+		<!--AI warns player for border troops-->
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>你為什麼在這？ 離開。 否則，我會發現自己擁有一些可愛的新骷髏。</Text>
+		</Row>
+
+		<!--TRADE-->
+		<!--AI Accepts Deal-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>好</Text>
+		</Row>
+		<!--AI Rejects Deal-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>不再見。</Text>
+		</Row>
+
+		<!--DENOUNCE-->
+		<!--From Human-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>好</Text>
+		</Row>
+		<!--From AI-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>你好傻。 你會死，你會留下一具愚蠢的屍體。 （譴責你。）</Text>
+		</Row>
+
+		<!--DECLARE WAR-->
+		<!--Human Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>宣戰？ 在死靈法師身上？ 你沒有想到這一點，你這個麻木的腦袋。</Text>
+		</Row>
+		<!--AI Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>你敢於介於我的寶貝和她的夢想之間……你將見證我可怕的奉獻精神。</Text>
+		</Row>
+
+		<!--MAKE PEACE-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>好</Text>
+		</Row>
+		<!--AI refuses human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>和平？ 但我既沒有用盡法術也沒有用盡骷髏。 來拿些吧。</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>亡靈可以永遠存在； 我們的戰爭不需要。</Text>
+		</Row>
+
+		<!--DEFEAT-->
+		<!--AI is Defeated-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>我辜負了我親愛的。 我一文不值，令人厭惡，但我的寶貝，她接受了我的寶貝是我的寶貝。 ……然而我辜負了她。</Text>
+		</Row>
+		<!--Human is Defeated (will see this in hotseat)-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>你死了，留下一具愚蠢的屍體。</Text>
+		</Row>
+
+
+		<!--LEADER AGENDA-->
+		<Row Tag="LOC_AGENDA_SAILOR_VALKRANA_NAME" Language="zh_Hant_HK">
+			<Text>尷尬的信息販子</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_SAILOR_VALKRANA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>Valkrana 很笨拙，並且對與其他文明的外交分數有永久性的懲罰。 一個文明發現的每個遺物都會略微但永久地提高她對該文明的看法，最多五次。 她討厭監視她的文明。 Valkrana 的主要關注點是科學和間諜活動。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAILOR_VALKRANA_AWKWARD" Language="zh_Hant_HK">
+			<Text>你很尷尬。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_SAILOR_VALKRANA_REASON_SPY" Language="zh_Hant_HK">
+			<Text>（你已經監視了 Valkrana。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAILOR_VALKRANA_SPY" Language="zh_Hant_HK">
+			<Text>不信任您使用間諜活動。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_SAILOR_VALKRANA_REASON_RELIC" Language="zh_Hant_HK">
+			<Text>（你發現了一個遺物。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAILOR_VALKRANA_RELIC" Language="zh_Hant_HK">
+			<Text>你發現了一件遺物。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_SAILOR_VALKRANA_REASON_ANY" Language="zh_Hant_HK">
+			<Text>（你發現了一件遺物。）</Text>
+		</Row>
+
+		<!--AI Kudos-->
+		<!--Default-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>昨天，我從封面上看到一具骷髏打開了一瓶“22 年病態和內爆名聲”。 多麼神秘的奇蹟。 （你找到了一個遺物。）</Text>
+		</Row>
+		<!--These will be semi-randomized and (hopefully) injected to replace the default.-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_1" Language="zh_Hant_HK">
+			<Text>昨天，我從封面上看到一具骷髏打開了一瓶“22 年病態和內爆名聲”。 多麼神秘的奇蹟。 （你找到了一個遺物。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_2" Language="zh_Hant_HK">
+			<Text>奧術魔典擁有如此不可思議的知識。 比如《極暗之書》第 184 頁，其中……（你找到了一個遺物。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_3" Language="zh_Hant_HK">
+			<Text>另一個要編目的魔法物品。 我迫不及待地想告訴我的寶貝。 呵呵呵。 （你找到了一個遺物。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_4" Language="zh_Hant_HK">
+			<Text>有時，嗯，有時，我親愛的允許我親愛的我騎在她的飛天掃帚上，她的頭髮在我的臉上和嘴裡，我能聞到她美味的椎骨。 而這一次，這一次……（你找到了一個遺物。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_5" Language="zh_Hant_HK">
+			<Text>魔杖可以儲存各種魔法。 使用魔杖節省資源。 使用魔杖體驗魔法。 使用魔杖。 （你找到了一個遺物。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_6" Language="zh_Hant_HK">
+			<Text>消耗魔法物品的最後一次充能是苦樂參半的。 在這兩種情況下，您都是最後一個使用該物品的人。 （你找到了一個遺物。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_7" Language="zh_Hant_HK">
+			<Text>你最喜歡的魔法物品是什麼？ 你不能讓我親愛的我選擇。 （你找到了一個遺物。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_8" Language="zh_Hant_HK">
+			<Text>我從沒想過千骨甲板會變得有知覺。 但我不介意。 （你找到了一個遺物。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_9" Language="zh_Hant_HK">
+			<Text>不要忽視看似平凡的魔法物品。 小小的，日常的事情改善了我親愛的生活。 魔法也是如此。 （你找到了一個遺物。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_0" Language="zh_Hant_HK">
+			<Text>天哪，那是黑社會居民的箔限量版法杖嗎？ （你找到了一個遺物。）</Text>
+		</Row>
+
+		<!--AI Warnings-->
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hant_HK">
+			<Text>繼續這些可憐的間諜活動，後果自負。</Text>
+		</Row>
+
+		<!-- ====================================================== -->
+		<!-- ====================================================== -->
+		<!-- ====================================================== -->
+		<!-- CHINESE (SIMPLIFIED) -->
+		<!-- ====================================================== -->
+		<!-- ====================================================== -->
+		<!-- ====================================================== -->
+		<Row Tag="LOC_LEADER_SAILOR_VALKRANA_NAME" Language="zh_Hans_CN">
+			<Text>Valkrana</Text>
+			<!--Used on loading screen, pedia list, and civ pedia.-->
+		</Row>
+
+		<!--UA-->
+		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UA_NAME" Language="zh_Hans_CN">
+			<Text>秘术死灵术</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>图书馆有一个 [ICON_GreatWork_Relic] 遗物的插槽，您可以在第一次获得每个 [ICON_GreatWork_Relic] 遗物时使用一次您的法术书，这些遗物可以保存以备后用。 在战斗中丢失或被摧毁的陆地单位有 10% 的几率被复活为由你控制的骷髅，每次成功复活之间的每次失败都会增加 1%。 解锁骷髅单位。</Text>
+		</Row>
+
+		<!--DOM-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_SAILOR_VALKRANA" Language="zh_Hans_CN">
+			<Text>
+				Valkrana Miraquinal，尽管你可能很尴尬，但你走出阴影的时候已经临近了。 你的宝贝希望看到你的祖国在你的手下胜利，所以领导的衣钵是你的。 凭借你相当的智慧、神秘的曲目和一群不知疲倦的骷髅。 . . 嗯，就像你说的，“为我的宝贝所做的，超越了善恶。”
+			</Text>
+		</Row>
+
+		<!--Capital-->
+		<Row Tag="LOC_CITY_NAME_SAILOR_SSSRASHIENSTA" Language="zh_Hans_CN">
+			<Text>斯拉希恩斯塔</Text>
+		</Row>
+
+		<!--Civilopedia-->
+		<!--Extended Pedia entries can be found at the bottom of the document.-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_TITLE" Language="zh_Hans_CN">
+			<Text>Valkrana Miraquinal</Text>
+			<!--Used on leader pedia page.-->
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_SUBTITLE" Language="zh_Hans_CN">
+			<Text>Valkrana Miraquinal</Text>
+			<!--Used where?-->
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_QUOTE" Language="zh_Hans_CN">
+			<Text>
+				骷髅很可爱，因为它们的样子。
+			</Text>
+		</Row>
+
+		<!--Spellbook Button-->
+		<Row Tag="LOC_SAILOR_VALKRANA_BUTTON_NIL" Language="zh_Hans_CN">
+			<Text>你没有可用的法术。 找到 [ICON_GreatWork_Relic] 遗物来强化你的法术书。</Text>
+		</Row>
+		<Row Tag="LOC_SAILOR_VALKRANA_BUTTON_NOT_NIL" Language="zh_Hans_CN">
+			<Text>你的魔法书充满了魔法。 你可以施法。 查找更多 [ICON_GreatWork_Relic] 遗物以进一步增强您的法术书。</Text>
+		</Row>
+
+		<!--Spellbook-->
+		<Row Tag="LOC_SAILOR_VALKRANA_POPUP_TITLE" Language="zh_Hans_CN">
+			<Text>拼写书</Text>
+		</Row>
+		<Row Tag="LOC_SAILOR_VALKRANA_POPUP_SUBHEADER" Language="zh_Hans_CN">
+			<Text>选择要施放的咒语，或合上这本书以备后用。</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_1_NAME" Language="zh_Hans_CN">
+			<Text>占卜</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>永久显示属于目标领导人的城市。 每次使用以不同的城市为目标，或增加您在城市上的能见度半径。 如果没有遇到领导者，则以随机情节为目标。</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_2_NAME" Language="zh_Hans_CN">
+			<Text>动能屏障</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>防御时为您的单位提供 +10 战斗力加值。 持续 5 回合并叠加持续时间。</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_3_NAME" Language="zh_Hans_CN">
+			<Text>灵魂之井</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>治疗你的骷髅，治疗量等于 20 加上自你上次使用此法术以来摧毁的单位数量的两倍。 当前治疗：</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_4_NAME" Language="zh_Hans_CN">
+			<Text>骨架端口</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_4_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在目标领袖的城市附近生成 2 到 3 个敌对骷髅。 如果没有遇到领导者，则以随机情节为目标。</Text>
+		</Row>
+		<!--Spellbook Ability-->
+		<Row Tag="LOC_ABILITY_SAILOR_VALKRANA_SPELL2_NAME" Language="zh_Hans_CN">
+			<Text>动能屏障</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SAILOR_VALKRANA_SPELL2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+10 [ICON_Strength] 防御时的战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_SAILOR_VALKRANA_BARRIER_PREVIEW_TEXT" Language="zh_Hans_CN">
+			<Text>+10 动能屏障</Text>
+		</Row>
+		<!--Targets-->
+		<Row Tag="LOC_SAILOR_VALKRANA_TARGETS_SUBHEADER" Language="zh_Hans_CN">
+			<Text>选择一个目标。</Text>
+		</Row>
+
+		<!--UU-->
+		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UU_NAME" Language="zh_Hans_CN">
+			<Text>骨骼</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>取代战士的独特持久近战单位。 首次建造图书馆时获得 +10 [ICON_Strength] 战斗力，首次建造大学和研究实验室时获得 +20 [ICON_Strength] 战斗力。 可以修复改进和删除功能。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SAILOR_VALKRANA_UU_NAME" Language="zh_Hans_CN">
+			<Text>骨骼</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SAILOR_VALKRANA_UU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>取代战士的独特持久近战单位。 首次建造图书馆时获得 +10 [ICON_Strength] 战斗力，首次建造大学和研究实验室时获得 +20 [ICON_Strength] 战斗力。 可以修复改进和删除功能。</Text>
+		</Row>
+
+		<!--UnitName-->
+		<Row Tag="LOC_UNITNAME_SUFFIX_SAILOR_SKELETONS" Language="zh_Hans_CN">
+			<Text>骨骼</Text>
+		</Row>
+
+		<!--Reanimation Floater-->
+		<Row Tag="LOC_SAILOR_VALKRANA_REANIMATED" Language="zh_Hans_CN">
+			<Text>[COLOR_FLOAT_CULTURE]骷髅复活了！[ENDCOLOR]</Text>
+		</Row>
+
+		<!--Diplomacy-->
+		<!--FIRST MEET-->
+		<!--First AI line-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>你好。 ...你好。 我是 Valkrana Miraquinal，伟大、强大、无与伦比的英雄 Ilyana Miraquinal 的右手和最大粉丝。 这就是我的介绍。</Text>
+		</Row>
+		<!--AI invitation to visit nearby City-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>我正在关闭舱口，以观看离我最近的城市发生的死灵风暴。 你也可以。 ...但不是我亲爱的我。</Text>
+		</Row>
+		<!--AI accepts Human invitation-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>好。</Text>
+		</Row>
+		<!--AI invitation to exchange Capital Information-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>斯拉希恩斯塔 到处都是类昆虫、不死生物、地精和食人魔，如果人类希望它死，它可能就在那里。 此外，还有冻糕。 ...你可以让你的骨头挂出来。</Text>
+		</Row>
+
+		<!--GREETINGS-->
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>你好。 ...你好。 你好。</Text>
+		</Row>
+
+		<!--DELEGATION-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>好。</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>你这些下流的下属与我的宝贝没有任何关系。</Text>
+		</Row>
+		<!--AI Requests -->
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>想象一下可爱骷髅的嘎嘎声。 一个人有一篮紫菜 &#38; 荔枝饼干。 另一个有一件稀有的魔法物品。 哇。 那对你来说将是一个欺负者。</Text>
+		</Row>
+		<!--Human Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>好。</Text>
+		</Row>
+
+		<!--EMBASSY-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>好。</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>哦。 我的尴尬是否给人一种欢迎你的印象？ 对不起。 那是错误的。</Text>
+		</Row>
+		<!--AI Requests -->
+		<Row Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>一些骷髅会在你的首都闲置。 以官方身份。</Text>
+		</Row>
+		<!--Human Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>好。</Text>
+		</Row>
+
+		<!--OPEN BORDERS-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>好。</Text>
+		</Row>
+		<!--AI rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>爬回你的坟墓。 再见。</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>我的骷髅会穿过你的领地。</Text>
+		</Row>
+
+		<!--DECLARE FRIENDSHIP-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>什么？ 为什么？ ...好。它确实在“凡人：他们是什么以及他们为什么还要打扰存在？”中读到。 你经常需要保持拥有朋友的幻想。</Text>
+		</Row>
+		<!--AI Rejects from human -->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>再见。</Text>
+		</Row>
+		<!--AI Requests friendship from human-->
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>我们不是朋友。 但我们的敌人不需要知道这一点。 我将从宣传开始。</Text>
+		</Row>
+		<!--Human accepts AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>你也是。 再见。</Text>
+		</Row>
+		<!--Human rejects AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>好。你也是。 再见。</Text>
+		</Row>
+
+		<!--ALLIANCE-->
+		<!--AI Requests an alliance from human-->
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>共谋将符合我们的最大利益。 嗯，彼此。</Text>
+		</Row>
+		<!--AI warns player for border troops-->
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>你为什么在这？ 离开。 否则，我会发现自己拥有一些可爱的新骷髅。</Text>
+		</Row>
+
+		<!--TRADE-->
+		<!--AI Accepts Deal-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>好。</Text>
+		</Row>
+		<!--AI Rejects Deal-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>不再见。</Text>
+		</Row>
+
+		<!--DENOUNCE-->
+		<!--From Human-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>好。</Text>
+		</Row>
+		<!--From AI-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>你好傻。 你会死，你会留下一具愚蠢的尸体。 （谴责你。）</Text>
+		</Row>
+
+		<!--DECLARE WAR-->
+		<!--Human Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>宣战？ 在死灵法师身上？ 你没有想到这一点，你这个麻木的脑袋。</Text>
+		</Row>
+		<!--AI Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>你敢于介于我的宝贝和她的梦想之间……你将见证我可怕的奉献精神。</Text>
+		</Row>
+
+		<!--MAKE PEACE-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>好。</Text>
+		</Row>
+		<!--AI refuses human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>和平？ 但我既没有用尽法术也没有用尽骷髅。 来拿些吧。</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>亡灵可以永远存在； 我们的战争不需要。</Text>
+		</Row>
+
+		<!--DEFEAT-->
+		<!--AI is Defeated-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>我辜负了我亲爱的。 我一文不值，令人厌恶，但我的宝贝，她接受我宝贝的我是我宝贝的我。 ……然而我辜负了她。</Text>
+		</Row>
+		<!--Human is Defeated (will see this in hotseat)-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>你死了，留下一具愚蠢的尸体。</Text>
+		</Row>
+
+
+		<!--LEADER AGENDA-->
+		<Row Tag="LOC_AGENDA_SAILOR_VALKRANA_NAME" Language="zh_Hans_CN">
+			<Text>尴尬的信息贩子</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_SAILOR_VALKRANA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>Valkrana 很笨拙，并且对与其他文明的外交分数有永久性的惩罚。 一个文明发现的每个遗物都会略微但永久地提高她对该文明的看法，最多五次。 她讨厌监视她的文明。 Valkrana 的主要关注点是科学和间谍活动。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAILOR_VALKRANA_AWKWARD" Language="zh_Hans_CN">
+			<Text>你很尴尬。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_SAILOR_VALKRANA_REASON_SPY" Language="zh_Hans_CN">
+			<Text>（你已经监视了 Valkrana。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAILOR_VALKRANA_SPY" Language="zh_Hans_CN">
+			<Text>不信任您使用间谍活动。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_SAILOR_VALKRANA_REASON_RELIC" Language="zh_Hans_CN">
+			<Text>（你发现了一个遗物。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAILOR_VALKRANA_RELIC" Language="zh_Hans_CN">
+			<Text>你发现了一件遗物。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_SAILOR_VALKRANA_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（你发现了一件遗物。）</Text>
+		</Row>
+
+		<!--AI Kudos-->
+		<!--Default-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>昨天，我从封面上看到一具骷髅打开了一瓶“22 年病态和内爆名声”。 多么神秘的奇迹。 （你找到了一个遗物。）</Text>
+		</Row>
+		<!--These will be semi-randomized and (hopefully) injected to replace the default.-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_1" Language="zh_Hans_CN">
+			<Text>昨天，我从封面上看到一具骷髅打开了一瓶“22 年病态和内爆名声”。 多么神秘的奇迹。 （你找到了一个遗物。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_2" Language="zh_Hans_CN">
+			<Text>奥术魔典拥有如此不可思议的知识。 比如《极暗之书》第 184 页，其中……（你找到了一个遗物。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_3" Language="zh_Hans_CN">
+			<Text>另一个要编目的魔法物品。 我迫不及待地想告诉我的宝贝。 呵呵呵。 （你找到了一个遗物。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_4" Language="zh_Hans_CN">
+			<Text>有时，嗯，有时，我亲爱的允许我亲爱的我骑在她的飞天扫帚上，她的头发在我的脸上和嘴里，我能闻到她美味的椎骨。 而这一次，这一次……（你找到了一个遗物。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_5" Language="zh_Hans_CN">
+			<Text>魔杖可以储存各种魔法。 使用魔杖节省资源。 使用魔杖体验魔法。 使用魔杖。 （你找到了一个遗物。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_6" Language="zh_Hans_CN">
+			<Text>消耗魔法物品的最后一次充能是苦乐参半的。 在这两个帐户中，您都是最后一个使用该项目的人。 （你找到了一个遗物。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_7" Language="zh_Hans_CN">
+			<Text>你最喜欢的魔法物品是什么？ 你不能让我亲爱的我选择。 （你找到了一个遗物。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_8" Language="zh_Hans_CN">
+			<Text>我从没想过千骨甲板会变得有知觉。 但我不介意。 （你找到了一个遗物。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_9" Language="zh_Hans_CN">
+			<Text>不要忽视看似平凡的魔法物品。 小小的，日常的事情改善了我亲爱的生活。 魔法也是如此。 （你找到了一个遗物。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_0" Language="zh_Hans_CN">
+			<Text>天哪，那是黑社会居民的箔限量版法杖吗？ （你找到了一个遗物。）</Text>
+		</Row>
+
+		<!--AI Warnings-->
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
+			<Text>继续这些可怜的间谍活动，后果自负。</Text>
+		</Row>
+
+		<!-- ====================================================== -->
+		<!-- ====================================================== -->
+		<!-- ====================================================== -->
+		<!-- RUSSIAN -->
+		<!-- ====================================================== -->
+		<!-- ====================================================== -->
+		<!-- ====================================================== -->
+		<Row Tag="LOC_LEADER_SAILOR_VALKRANA_NAME" Language="ru_RU">
+			<Text>Валкрана</Text>
+			<!--Used on loading screen, pedia list, and civ pedia.-->
+		</Row>
+
+		<!--UA-->
+		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UA_NAME" Language="ru_RU">
+			<Text>Арканум Некромантический</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UA_DESCRIPTION" Language="ru_RU">
+			<Text>В библиотеке есть слот для [ICON_GreatWork_Relic] Relics, и при первом получении каждой [ICON_GreatWork_Relic] Relic вы получаете одно использование книги заклинаний, которое можно сохранить на потом. 10% шанс того, что потерянные или уничтоженные в бою наземные единицы будут возрождены в виде скелета под вашим контролем, увеличивается на 1% за каждую неудачу между каждым успешным возрождением. Разблокирует отряд скелетов.
+			</Text>
+		</Row>
+
+		<!--DOM-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_SAILOR_VALKRANA" Language="ru_RU">
+			<Text>
+				Как бы вам ни было неловко, Валькрана Миракинал, настало время выйти из тени. Ваша дорогая желает увидеть триумф вашей родины, и поэтому мантию лидера вы должны взять на себя. С вашим значительным интеллектом, арканным репертуаром и ордой неутомимых скелетов... ...что ж, как говорится, "что сделано для моей любимой, то сделано за гранью добра и зла".
+			</Text>
+		</Row>
+
+		<!--Capital-->
+		<Row Tag="LOC_CITY_NAME_SAILOR_SSSRASHIENSTA" Language="ru_RU">
+			<Text>Сссрашиенста</Text>
+		</Row>
+
+		<!--Civilopedia-->
+		<!--Extended Pedia entries can be found at the bottom of the document.-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_TITLE" Language="ru_RU">
+			<Text>Валькрана Миракинал</Text>
+			<!--Used on leader pedia page.-->
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_SUBTITLE" Language="ru_RU">
+			<Text>Валькрана Миракинал</Text>
+			<!--Used where?-->
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_QUOTE" Language="ru_RU">
+			<Text>
+				Скелеты милы, потому что они такие, какие они есть.
+			</Text>
+		</Row>
+
+		<!--Spellbook Button-->
+		<Row Tag="LOC_SAILOR_VALKRANA_BUTTON_NIL" Language="ru_RU">
+			<Text>У вас нет доступных заклинаний. Найдите [ICON_GreatWork_Relic] Реликвии, чтобы расширить свою книгу заклинаний.</Text>
+		</Row>
+		<Row Tag="LOC_SAILOR_VALKRANA_BUTTON_NOT_NIL" Language="ru_RU">
+			<Text>Ваша книга заклинаний наполнена магией. Вы можете творить заклинания. Найдите больше [ICON_GreatWork_Relic] реликвий, чтобы расширить возможности своей книги заклинаний.</Text>
+		</Row>
+
+		<!--Spellbook-->
+		<Row Tag="LOC_SAILOR_VALKRANA_POPUP_TITLE" Language="ru_RU">
+			<Text>Книга заклинаний Валкраны</Text>
+		</Row>
+		<Row Tag="LOC_SAILOR_VALKRANA_POPUP_SUBHEADER" Language="ru_RU">
+			<Text>Выберите заклинание для произнесения или закройте книгу, чтобы сохранить его на потом.</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_1_NAME" Language="ru_RU">
+			<Text>Скрининг</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_1_DESCRIPTION" Language="ru_RU">
+			<Text>Постоянно раскрывает город, принадлежащий целевому лидеру. За каждое использование нацеливается на другой город или увеличивает радиус видимости над городом. Нацеливается на случайный участок, если не было встречено ни одного лидера.</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_2_NAME" Language="ru_RU">
+			<Text>Кинетический барьер</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_2_DESCRIPTION" Language="ru_RU">
+			<Text>Дает вашим юнитам бонус +10 к боевой силе при защите. Действует 5 ходов и складывается по длительности.</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_3_NAME" Language="ru_RU">
+			<Text>Колодец душ</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_3_DESCRIPTION" Language="ru_RU">
+			<Text>Исцелите своих скелетов на сумму, равную 20 плюс удвоенное количество единиц, уничтоженных с момента последнего использования этого заклинания. Текущее исцеление: </Text>
+		</Row>
+		<Row Tag="LOC_SPELL_4_NAME" Language="ru_RU">
+			<Text>Скелепорт</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_4_DESCRIPTION" Language="ru_RU">
+			<Text>Порождает от 2 до 3 враждебных скелетов рядом с городом лидера цели. Целью является случайный участок, если не было встречено ни одного лидера.</Text>
+		</Row>
+		<!--Spellbook Ability-->
+		<Row Tag="LOC_ABILITY_SAILOR_VALKRANA_SPELL2_NAME" Language="ru_RU">
+			<Text>Кинетический барьер</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SAILOR_VALKRANA_SPELL2_DESCRIPTION" Language="ru_RU">
+			<Text>+10 [ICON_Strength] Боевая сила при защите.</Text>
+		</Row>
+		<Row Tag="LOC_SAILOR_VALKRANA_BARRIER_PREVIEW_TEXT" Language="ru_RU">
+			<Text>+10 от кинетического барьера</Text>
+		</Row>
+		<!--Targets-->
+		<Row Tag="LOC_SAILOR_VALKRANA_TARGETS_SUBHEADER" Language="ru_RU">
+			<Text>Выберите цель.</Text>
+		</Row>
+
+		<!--UU-->
+		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UU_NAME" Language="ru_RU">
+			<Text>Скелет</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UU_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальный долговечный юнит ближнего боя, заменяющий воина. Получает +10 [ICON_Strength] Combat Strength, когда впервые построена Библиотека, и +20 [ICON_Strength] Combat Strength, когда впервые построены Университет и Исследовательская лаборатория. Может ремонтировать улучшения и удалять особенности.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SAILOR_VALKRANA_UU_NAME" Language="ru_RU">
+			<Text>Скелет</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SAILOR_VALKRANA_UU_DESCRIPTION" Language="ru_RU">
+			<Text>Уникальный долговечный юнит ближнего боя, заменяющий воина. Получает +10 [ICON_Strength] Combat Strength, когда впервые построена Библиотека, и +20 [ICON_Strength] Combat Strength, когда впервые построены Университет и Исследовательская лаборатория. Может ремонтировать улучшения и удалять особенности.</Text>
+		</Row>
+
+		<!--UnitName-->
+		<Row Tag="LOC_UNITNAME_SUFFIX_SAILOR_SKELETONS" Language="ru_RU">
+			<Text>Скелет</Text>
+		</Row>
+
+		<!--Reanimation Floater-->
+		<Row Tag="LOC_SAILOR_VALKRANA_REANIMATED" Language="ru_RU">
+			<Text>[COLOR_FLOAT_CULTURE]Скелет оживает![ENDCOLOR]</Text>
+		</Row>
+
+		<!--Diplomacy-->
+		<!--FIRST MEET-->
+		<!--First AI line-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Привет. ...Привет. Я Валькрана Миракинал, правая рука и самый большой поклонник великого, могучего, непревзойденного героя Ильяны Миракинал. Это мое представление.</Text>
+		</Row>
+		<!--AI invitation to visit nearby City-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Я задраиваю люки, чтобы наблюдать за некромантской бурей из ближайшего города. Ты тоже можешь. ...Но не с моей дорогой.</Text>
+		</Row>
+		<!--AI accepts Human invitation-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Кэй.</Text>
+		</Row>
+		<!--AI invitation to exchange Capital Information-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Сссрашиенста кишит инсектоидами, нежитью, гоблинами и ограми, и если человек пожелает смерти, она может оказаться там. А еще там есть парфеи. ...Вы можете позволить своим костям болтаться.</Text>
+		</Row>
+
+		<!--GREETINGS-->
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Привет. ...Привет. Привет.</Text>
+		</Row>
+
+		<!--DELEGATION-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Кэй.</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Твоим мерзким прихвостням нет никакого дела до моей дорогой.</Text>
+		</Row>
+		<!--AI Requests -->
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Представьте себе грохочущую процессию симпатичных скелетов. У одного из них корзина с морскими водорослями и печеньем личи. У другого - редкий магический предмет. Ничего себе. Вот это будет задира.</Text>
+		</Row>
+		<!--Human Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Кэй.</Text>
+		</Row>
+
+		<!--EMBASSY-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Кэй.</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>О. Моя неловкость создала впечатление, что вам рады? Простите. Это ложь.</Text>
+		</Row>
+		<!--AI Requests -->
+		<Row Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Несколько скелетов будут простаивать в вашей столице. В официальном качестве.</Text>
+		</Row>
+		<!--Human Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Кэй.</Text>
+		</Row>
+
+		<!--OPEN BORDERS-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Кэй.</Text>
+		</Row>
+		<!--AI rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Ползи обратно в свою могилу. Пока.</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Мои скелеты пройдут по твоей территории.</Text>
+		</Row>
+
+		<!--DECLARE FRIENDSHIP-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Что? Почему? ...Кэй. В книге "Смертные: What Are They and Why Do They Even Bother Existing?", что у вас часто возникает потребность поддерживать иллюзию наличия друзей.</Text>
+		</Row>
+		<!--AI Rejects from human -->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Пока.</Text>
+		</Row>
+		<!--AI Requests friendship from human-->
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Мы не друзья. Но нашим врагам не обязательно это знать. Я начну с пропаганды.</Text>
+		</Row>
+		<!--Human accepts AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Ты тоже. Пока.</Text>
+		</Row>
+		<!--Human rejects AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Кэй. Ты тоже. Пока.</Text>
+		</Row>
+
+		<!--ALLIANCE-->
+		<!--AI Requests an alliance from human-->
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>В наших интересах сговориться. Хм, друг с другом.</Text>
+		</Row>
+		<!--AI warns player for border troops-->
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Почему ты здесь? Уходи. Иначе я окажусь обладателем новых симпатичных скелетов.</Text>
+		</Row>
+
+		<!--TRADE-->
+		<!--AI Accepts Deal-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Кэй.</Text>
+		</Row>
+		<!--AI Rejects Deal-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Нет. Пока.</Text>
+		</Row>
+
+		<!--DENOUNCE-->
+		<!--From Human-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Кэй.</Text>
+		</Row>
+		<!--From AI-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Ты глуп. Ты умрешь, и от тебя останется глупый труп. (Отрицает тебя.)</Text>
+		</Row>
+
+		<!--DECLARE WAR-->
+		<!--Human Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Объявление войны? Некроманту? Ты не продумал все до конца, долбаный тупица.</Text>
+		</Row>
+		<!--AI Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Ты, который посмел встать между моей любимой и ее мечтой... Ты станешь свидетелем ужасных глубин моей преданности.</Text>
+		</Row>
+
+		<!--MAKE PEACE-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Кэй.</Text>
+		</Row>
+		<!--AI refuses human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Мир? Но у меня нет ни заклинаний, ни скелетов. Приходи за ними.</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Нежить может продолжаться вечно, а наша война - нет.</Text>
+		</Row>
+
+		<!--DEFEAT-->
+		<!--AI is Defeated-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Я подвел свою дорогую. Я никчемен и отвратителен, но моя дорогая, она принимает меня за моего любимого. ...И все же я подвел ее.</Text>
+		</Row>
+		<!--Human is Defeated (will see this in hotseat)-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Вы умерли, и от вас остался глупый труп.</Text>
+		</Row>
+
+
+		<!--LEADER AGENDA-->
+		<Row Tag="LOC_AGENDA_SAILOR_VALKRANA_NAME" Language="ru_RU">
+			<Text>Неловкий инфомонгер</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_SAILOR_VALKRANA_DESCRIPTION" Language="ru_RU">
+			<Text>Валкрана неуклюжа и имеет постоянный штраф к дипломатическим счетам с другими цивилизациями. Каждая реликвия, обнаруженная цивилизацией, немного, но надолго улучшает ее мнение об этой цивилизации, до пяти раз. Она ненавидит цивилизации, которые шпионят за ней. Основными сферами деятельности Валкраны являются наука и шпионаж.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAILOR_VALKRANA_AWKWARD" Language="ru_RU">
+			<Text>Ты очень неловкий.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_SAILOR_VALKRANA_REASON_SPY" Language="ru_RU">
+			<Text>(Вы подглядели за Валкраной.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAILOR_VALKRANA_SPY" Language="ru_RU">
+			<Text>Не доверяет вашему использованию шпионажа.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_SAILOR_VALKRANA_REASON_RELIC" Language="ru_RU">
+			<Text>(Вы обнаружили реликвию.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAILOR_VALKRANA_RELIC" Language="ru_RU">
+			<Text>Вы обнаружили реликвию.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_SAILOR_VALKRANA_REASON_ANY" Language="ru_RU">
+			<Text>(Вы обнаружили реликвию.)</Text>
+		</Row>
+
+		<!--AI Kudos-->
+		<!--Default-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Вчера я наблюдал из укрытия, как скелет откупоривает бутылку "Илл- и имплозивная репутация '22". Что за чудеса. (Вы нашли реликвию.)</Text>
+		</Row>
+		<!--These will be semi-randomized and (hopefully) injected to replace the default.-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_1" Language="ru_RU">
+			<Text>Вчера я наблюдал из укрытия, как скелет откупоривает бутылку "Илл- и имплозивная репутация '22". Что за чудеса. (Вы нашли реликвию.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_2" Language="ru_RU">
+			<Text>В гримуарах хранятся такие невероятные знания. Например, страница 184 из Книги Очень Тьмы, на которой... (Вы нашли реликвию.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_3" Language="ru_RU">
+			<Text>Еще один волшебный предмет для каталога. Не могу дождаться, когда расскажу своей дорогой. Эхе-хе-хе. (Вы нашли реликвию.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_4" Language="ru_RU">
+			<Text>Иногда, гм, иногда моя дорогая разрешает мне кататься за ней на ее летающей метле, и ее волосы оказываются у моего лица и рта, и я чувствую запах ее пикантных позвонков. И в этот раз, в этот раз... (Вы нашли реликвию.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_5" Language="ru_RU">
+			<Text>В палочках можно хранить все виды магии. Экономьте свои ресурсы, используя палочку. Почувствуйте магию, используя палочку. Используйте палочку. (Вы нашли реликвию.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_6" Language="ru_RU">
+			<Text>Расходовать последний заряд магического предмета - горькая радость. В обоих случаях вы последний, кто когда-либо использовал этот предмет. (Вы нашли реликвию.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_7" Language="ru_RU">
+			<Text>Какой ваш любимый волшебный предмет? Ты не можешь заставить меня выбрать. (Вы нашли реликвию.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_8" Language="ru_RU">
+			<Text>Я не ожидал, что Колода многих костей станет разумной. Но я не возражаю. (Вы нашли реликвию.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_9" Language="ru_RU">
+			<Text>Не упускайте из виду волшебные предметы, которые кажутся обыденными. Маленькие, повседневные вещи улучшают жизнь моей дорогой. То же самое можно сказать и о магии. (Вы нашли реликвию.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_0" Language="ru_RU">
+			<Text>Святые угодники, это фольгированный ограниченный выпуск Посоха обитателя подземного мира? (Вы нашли реликвию.)</Text>
+		</Row>
+
+		<!--AI Warnings-->
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
+			<Text>Продолжайте эти жалкие попытки шпионажа на свой страх и риск.</Text>
+		</Row>
+
+		<!-- ====================================================== -->
+		<!-- ====================================================== -->
+		<!-- ====================================================== -->
+		<!-- GERMAN -->
+		<!-- ====================================================== -->
+		<!-- ====================================================== -->
+		<!-- ====================================================== -->
+		<Row Tag="LOC_LEADER_SAILOR_VALKRANA_NAME" Language="de_DE">
+			<Text>Valkrana</Text>
+			<!--Used on loading screen, pedia list, and civ pedia.-->
+		</Row>
+
+		<!--UA-->
+		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UA_NAME" Language="de_DE">
+			<Text>Nekromantisches Arkanum</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UA_DESCRIPTION" Language="de_DE">
+			<Text>Die Bibliothek hat einen Steckplatz für [ICON_GreatWork_Relic]-Relikte, und du erhältst eine Nutzung deines Zauberbuchs, wenn du zum ersten Mal ein [ICON_GreatWork_Relic]-Relikt erhältst, das du für später aufheben kannst. 10% Chance für Landeinheiten, die im Kampf verloren oder zerstört wurden, als Skelett unter deiner Kontrolle wiederzubeleben, erhöht um 1% für jeden Fehlschlag zwischen jeder erfolgreichen Wiederbelebung. Schaltet die Skelett-Einheit frei.
+			</Text>
+		</Row>
+
+		<!--DOM-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_SAILOR_VALKRANA" Language="de_DE">
+			<Text>
+				So unbeholfen du auch sein magst, Valkrana Miraquinal, die Zeit für dich, aus dem Schatten zu treten, ist nah. Euer Liebling wünscht sich, dass Euer Mutterland durch Eure Hand triumphiert, und so ist es an Euch, den Mantel der Führung zu übernehmen. Mit deinem beträchtlichen Intellekt, deinem arkanen Repertoire und einer Horde unermüdlicher Skelette... . nun, es ist, wie du sagst: "Was für meinen Liebling getan wird, ist jenseits von Gut und Böse getan."
+			</Text>
+		</Row>
+
+		<!--Capital-->
+		<Row Tag="LOC_CITY_NAME_SAILOR_SSSRASHIENSTA" Language="de_DE">
+			<Text>Sssrashiensta</Text>
+		</Row>
+
+		<!--Civilopedia-->
+		<!--Extended Pedia entries can be found at the bottom of the document.-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_TITLE" Language="de_DE">
+			<Text>Valkrana Miraquinal</Text>
+			<!--Used on leader pedia page.-->
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_SUBTITLE" Language="de_DE">
+			<Text>Valkrana Miraquinal</Text>
+			<!--Used where?-->
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_QUOTE" Language="de_DE">
+			<Text>
+				Skelette sind niedlich, weil sie so sind, wie sie sind.
+			</Text>
+		</Row>
+
+		<!--Spellbook Button-->
+		<Row Tag="LOC_SAILOR_VALKRANA_BUTTON_NIL" Language="de_DE">
+			<Text>Du hast keine Zaubersprüche zur Verfügung. Finde [ICON_GreatWork_Relic] Relikte, um dein Zauberbuch zu stärken.</Text>
+		</Row>
+		<Row Tag="LOC_SAILOR_VALKRANA_BUTTON_NOT_NIL" Language="de_DE">
+			<Text>Dein Zauberbuch ist randvoll mit Magie. Du kannst Zaubersprüche wirken. Finde weitere [ICON_GreatWork_Relic]-Relikte, um dein Zauberbuch weiter zu stärken.</Text>
+		</Row>
+
+		<!--Spellbook-->
+		<Row Tag="LOC_SAILOR_VALKRANA_POPUP_TITLE" Language="de_DE">
+			<Text>Valkrana's Zauberbuch</Text>
+		</Row>
+		<Row Tag="LOC_SAILOR_VALKRANA_POPUP_SUBHEADER" Language="de_DE">
+			<Text>Wähle einen Zauberspruch aus oder schließe das Buch, um ihn für später zu speichern.</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_1_NAME" Language="de_DE">
+			<Text>Hellsehen</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_1_DESCRIPTION" Language="de_DE">
+			<Text>Enthüllt dauerhaft eine Stadt, die dem Anführer des Ziels gehört. Zielt pro Einsatz auf eine andere Stadt oder erhöht den Sichtbarkeitsradius über einer Stadt. Zielt auf eine zufällige Parzelle, wenn keine Anführer getroffen wurden.</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_2_NAME" Language="de_DE">
+			<Text>Kinetische Barriere</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_2_DESCRIPTION" Language="de_DE">
+			<Text>Gewährt deinen Einheiten bei der Verteidigung einen Bonus von +10 auf die Kampfstärke. Hält 5 Runden an und ist stapelbar.</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_3_NAME" Language="de_DE">
+			<Text>Brunnen der Seelen</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_3_DESCRIPTION" Language="de_DE">
+			<Text>Heile deine Skelette um einen Betrag, der 20 plus der doppelten Anzahl der Einheiten entspricht, die du seit der letzten Anwendung dieses Zaubers zerstört hast. Aktuelle Heilung: </Text>
+		</Row>
+		<Row Tag="LOC_SPELL_4_NAME" Language="de_DE">
+			<Text>Skeleport</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_4_DESCRIPTION" Language="de_DE">
+			<Text>Lässt 2 bis 3 feindliche Skelette in der Nähe der Stadt des Anführers erscheinen. Zielt auf ein zufälliges Grundstück, wenn kein Anführer getroffen wurde.</Text>
+		</Row>
+		<!--Spellbook Ability-->
+		<Row Tag="LOC_ABILITY_SAILOR_VALKRANA_SPELL2_NAME" Language="de_DE">
+			<Text>Kinetische Barriere</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SAILOR_VALKRANA_SPELL2_DESCRIPTION" Language="de_DE">
+			<Text>+10 [ICON_Strength] Kampfstärke beim Verteidigen.</Text>
+		</Row>
+		<Row Tag="LOC_SAILOR_VALKRANA_BARRIER_PREVIEW_TEXT" Language="de_DE">
+			<Text>+10 von Kinetischer Barriere</Text>
+		</Row>
+		<!--Targets-->
+		<Row Tag="LOC_SAILOR_VALKRANA_TARGETS_SUBHEADER" Language="de_DE">
+			<Text>Wählen Sie ein Ziel.</Text>
+		</Row>
+
+		<!--UU-->
+		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UU_NAME" Language="de_DE">
+			<Text>Skelett</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UU_DESCRIPTION" Language="de_DE">
+			<Text>Einzigartige, langlebige Nahkampfeinheit, die den Krieger ersetzt. Erhält +10 [ICON_Strength] Kampfkraft, wenn die Bibliothek zum ersten Mal gebaut wird, und +20 [ICON_Strength] Kampfkraft, wenn die Universität und das Forschungslabor zum ersten Mal gebaut werden. Kann Verbesserungen reparieren und Merkmale entfernen.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SAILOR_VALKRANA_UU_NAME" Language="de_DE">
+			<Text>Skelett</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SAILOR_VALKRANA_UU_DESCRIPTION" Language="de_DE">
+			<Text>Einzigartige, langlebige Nahkampfeinheit, die den Krieger ersetzt. Erhält +10 [ICON_Strength] Kampfkraft, wenn die Bibliothek zum ersten Mal gebaut wird, und +20 [ICON_Strength] Kampfkraft, wenn die Universität und das Forschungslabor zum ersten Mal gebaut werden. Kann Verbesserungen reparieren und Merkmale entfernen.</Text>
+		</Row>
+
+		<!--UnitName-->
+		<Row Tag="LOC_UNITNAME_SUFFIX_SAILOR_SKELETONS" Language="de_DE">
+			<Text>Skelette</Text>
+		</Row>
+
+		<!--Reanimation Floater-->
+		<Row Tag="LOC_SAILOR_VALKRANA_REANIMATED" Language="de_DE">
+			<Text>[COLOR_FLOAT_CULTURE]Skelett wiederbelebt![ENDCOLOR]</Text>
+		</Row>
+
+		<!--Diplomacy-->
+		<!--FIRST MEET-->
+		<!--First AI line-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>Hi. ...Hi. Ich bin Valkrana Miraquinal, die rechte Hand und der größte Fan des großen, mächtigen, unübertroffenen Helden Ilyana Miraquinal. Das ist meine Vorstellung.</Text>
+		</Row>
+		<!--AI invitation to visit nearby City-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>Ich schließe die Luken, um von meiner nächsten Stadt aus einen Nekromantie-Sturm zu beobachten. Ihr könnt das auch. ...aber nicht mit dem Ich meines Schatzes.</Text>
+		</Row>
+		<!--AI accepts Human invitation-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>'Kay.</Text>
+		</Row>
+		<!--AI invitation to exchange Capital Information-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>In Sssrashiensta wimmelt es von Insektoiden, Untoten, Goblins und Ogern, und wenn ein Mensch sich den Tod wünscht, ist er vielleicht schon da. Außerdem gibt es Parfaits. ...Du kannst deine Knochen raushängen lassen.</Text>
+		</Row>
+
+		<!--GREETINGS-->
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>Hi. ...Hi. Hi.</Text>
+		</Row>
+
+		<!--DELEGATION-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>'Kay.</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>Ihre schäbigen Untergebenen haben mit meinem Liebling nichts zu tun.</Text>
+		</Row>
+		<!--AI Requests -->
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>Stellen Sie sich eine rasselnde Prozession von niedlichen Skeletten vor. Eines hat einen Korb mit Seetang &#38; Litschi-Plätzchen. Ein anderes hat einen seltenen magischen Gegenstand. Wow! Das wäre ein Tyrann für dich.</Text>
+		</Row>
+		<!--Human Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>'Kay.</Text>
+		</Row>
+
+		<!--EMBASSY-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>'Kay.</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>Ach so. Hat meine Unbeholfenheit den Eindruck erweckt, dass Sie willkommen sind? Das tut mir leid. Das ist falsch.</Text>
+		</Row>
+		<!--AI Requests -->
+		<Row Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>Ein paar Leichen werden in Ihrem Kapital schlummern. In offizieller Funktion.</Text>
+		</Row>
+		<!--Human Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>'Kay.</Text>
+		</Row>
+
+		<!--OPEN BORDERS-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>'Kay.</Text>
+		</Row>
+		<!--AI rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>Kriechen Sie zurück in Ihr Grab. Mach's gut.</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>Meine Skelette werden durch euer Gebiet marschieren.</Text>
+		</Row>
+
+		<!--DECLARE FRIENDSHIP-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>Was ist? Warum? ...'Kay. Es steht in "Sterbliche: Was sind sie und warum gibt es sie überhaupt?", dass du oft das Bedürfnis hast, die Illusion aufrechtzuerhalten, Freunde zu haben.</Text>
+		</Row>
+		<!--AI Rejects from human -->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>Auf Wiedersehen.</Text>
+		</Row>
+		<!--AI Requests friendship from human-->
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>Wir sind keine Freunde. Aber unsere Feinde brauchen das nicht zu wissen. Ich werde mit der Propaganda beginnen.</Text>
+		</Row>
+		<!--Human accepts AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>Du auch. Tschüss.</Text>
+		</Row>
+		<!--Human rejects AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>'Kay. Du auch. Tschüss.</Text>
+		</Row>
+
+		<!--ALLIANCE-->
+		<!--AI Requests an alliance from human-->
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>Es wäre in unserem besten Interesse, uns zu verschwören. Ähm, mit einander.</Text>
+		</Row>
+		<!--AI warns player for border troops-->
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>Was machst du hier? Hau ab. Sonst finde ich mich im Besitz einiger niedlicher neuer Skelette wieder.</Text>
+		</Row>
+
+		<!--TRADE-->
+		<!--AI Accepts Deal-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>'Kay.</Text>
+		</Row>
+		<!--AI Rejects Deal-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>Nein. Tschüss.</Text>
+		</Row>
+
+		<!--DENOUNCE-->
+		<!--From Human-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>'Kay.</Text>
+		</Row>
+		<!--From AI-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>Du bist dumm. Du wirst sterben, und du wirst eine dumme Leiche hinterlassen. (Kündigt dich an.)</Text>
+		</Row>
+
+		<!--DECLARE WAR-->
+		<!--Human Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>Eine Kriegserklärung? Gegen einen Nekromanten? Du hast das nicht durchdacht, du verdammter Trottel.</Text>
+		</Row>
+		<!--AI Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>Du, der du es wagst, dich zwischen meine Liebste und ihre Träume zu stellen... Du wirst Zeuge der schrecklichen Tiefen meiner Hingabe.</Text>
+		</Row>
+
+		<!--MAKE PEACE-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>'Kay.</Text>
+		</Row>
+		<!--AI refuses human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>Frieden? Aber ich habe weder Zaubersprüche noch Skelette erschöpft. Komm und hol dir welche.</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>Untote können ewig weitermachen, unser Krieg muss es nicht.</Text>
+		</Row>
+
+		<!--DEFEAT-->
+		<!--AI is Defeated-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>Ich habe meine Liebste enttäuscht. Ich bin wertlos und abstoßend, doch mein Schatz akzeptiert mich für mich. ... Doch ich habe sie enttäuscht.</Text>
+		</Row>
+		<!--Human is Defeated (will see this in hotseat)-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>Du bist gestorben und hast eine dumme Leiche hinterlassen.</Text>
+		</Row>
+
+
+		<!--LEADER AGENDA-->
+		<Row Tag="LOC_AGENDA_SAILOR_VALKRANA_NAME" Language="de_DE">
+			<Text>Unbeholfener Infomonger</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_SAILOR_VALKRANA_DESCRIPTION" Language="de_DE">
+			<Text>Valkrana ist unbeholfen und hat einen permanenten Abzug bei den diplomatischen Punkten mit anderen Zivilisationen. Jedes Relikt, das eine Zivilisation entdeckt, verbessert ihre Meinung über diese Zivilisation leicht, aber dauerhaft, bis zu fünf Mal. Sie hasst Zivilisationen, die sie ausspioniert haben. Valkranas Hauptinteressen sind Wissenschaft und Spionage.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAILOR_VALKRANA_AWKWARD" Language="de_DE">
+			<Text>Du bist sehr unbeholfen.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_SAILOR_VALKRANA_REASON_SPY" Language="de_DE">
+			<Text>(Du hast Valkrana ausspioniert.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAILOR_VALKRANA_SPY" Language="de_DE">
+			<Text>misstraut Ihrem Einsatz von Spionage.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_SAILOR_VALKRANA_REASON_RELIC" Language="de_DE">
+			<Text>(Du hast eine Reliquie entdeckt.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAILOR_VALKRANA_RELIC" Language="de_DE">
+			<Text>Sie haben eine Reliquie entdeckt.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_SAILOR_VALKRANA_REASON_ANY" Language="de_DE">
+			<Text>(Sie haben ein Relikt entdeckt.)</Text>
+		</Row>
+
+		<!--AI Kudos-->
+		<!--Default-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>Gestern sah ich aus der Deckung heraus zu, wie ein Skelett eine Flasche Krank- und Implosiv-Bekanntheit '22 entkorkte. Was für arkane Wunder. (Du hast eine Reliquie gefunden.)</Text>
+		</Row>
+		<!--These will be semi-randomized and (hopefully) injected to replace the default.-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_1" Language="de_DE">
+			<Text>Gestern sah ich aus der Deckung heraus zu, wie ein Skelett eine Flasche Krank- und Implosiv-Bekanntheit '22 entkorkte. Was für arkane Wunder. (Du hast eine Reliquie gefunden.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_2" Language="de_DE">
+			<Text>Arkane Grimoires enthalten solch unglaubliches Wissen. Wie zum Beispiel Seite 184 des Buches der Finsternis, in dem... (Du hast eine Reliquie gefunden.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_3" Language="de_DE">
+			<Text>Ein weiterer magischer Gegenstand zum Katalogisieren. Ich kann es kaum erwarten, es meinem Schatz zu erzählen. Heheheh. (Du hast eine Reliquie gefunden.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_4" Language="de_DE">
+			<Text>Manchmal, ähm, manchmal, erlaubt mir mein Liebling, hinter ihr auf ihrem fliegenden Besen zu reiten, und ihr Haar ist in meinem Gesicht und meinem Mund, und ich kann ihre pikanten Wirbel riechen. Und dieses eine Mal, dieses eine Mal... (Du hast eine Reliquie gefunden.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_5" Language="de_DE">
+			<Text>Zauberstäbe können alle Arten von Zaubern speichern. Schone deine Ressourcen, indem du einen Zauberstab benutzt. Erlebe Magie, indem du einen Zauberstab benutzt. Benutze einen Zauberstab. (Du hast eine Reliquie gefunden.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_6" Language="de_DE">
+			<Text>Die letzte Ladung eines magischen Gegenstandes zu verbrauchen ist bittersüß. In beiden Fällen bist du der letzte, der den Gegenstand benutzt. (Du hast eine Reliquie gefunden.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_7" Language="de_DE">
+			<Text>Was ist dein liebster magischer Gegenstand? Du kannst mich nicht zwingen, mich zu entscheiden, mein Schatz. (Du hast eine Reliquie gefunden.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_8" Language="de_DE">
+			<Text>Ich hätte nie erwartet, dass das Deck of Many Bones empfindungsfähig wird. Aber es macht mir nichts aus. (Du hast eine Reliquie gefunden.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_9" Language="de_DE">
+			<Text>Übersehen Sie keine magischen Gegenstände, die banal erscheinen. Kleine, alltägliche Dinge verbessern das Leben meines Schatzes. Das Gleiche gilt für die Magie. (Du hast eine Reliquie gefunden.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_0" Language="de_DE">
+			<Text>Heiliger Strohsack, ist das eine limitierte Ausgabe des Stabes des Unterweltbewohners mit Folie? (Du hast eine Reliquie gefunden.)</Text>
+		</Row>
+
+		<!--AI Warnings-->
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
+			<Text>Setzen Sie diese kläglichen Spionageversuche auf eigene Gefahr fort.</Text>
+		</Row>
+
+		<!-- ====================================================== -->
+		<!-- ====================================================== -->
+		<!-- ====================================================== -->
+		<!-- JAPANESE -->
+		<!-- ====================================================== -->
+		<!-- ====================================================== -->
+		<!-- ====================================================== -->
+		<Row Tag="LOC_LEADER_SAILOR_VALKRANA_NAME" Language="ja_JP">
+			<Text>ヴァルクラナ</Text>
+			<!--Used on loading screen, pedia list, and civ pedia.-->
+		</Row>
+
+		<!--UA-->
+		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UA_NAME" Language="ja_JP">
+			<Text>アルカナムネクロマンティック</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UA_DESCRIPTION" Language="ja_JP">
+			<Text>図書館には[ICON_GreatWork_Relic]遺物用のスロットがあり、各[ICON_GreatWork_Relic]遺物を最初に入手した時に呪文書を1回使用できるようになり、後で保存できるようになる。戦闘で失われたり破壊されたりした陸上ユニットがあなたのコントロール下でスケルトンとして蘇る確率は10％で、蘇生に成功するまでの間、失敗するごとに1％ずつ増加する。スケルトン・ユニットをアンロックする。</Text>
+		</Row>
+
+		<!--DOM-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_SAILOR_VALKRANA" Language="ja_JP">
+			<Text>
+				気まずいかもしれないが、ヴァルクラーナ・ミラキナル、君が影から抜け出すときが近づいている。あなたの愛する人は、あなたの手で祖国が勝利するのを見たいと願っている、だから指導者のマントはあなたが引き受けるべきだ。君の優れた知性と難解なレパートリーと不屈のスケルトンの大群で... "ダーリンのためになされることは、善悪を越えてなされる" と言うことだ。
+			</Text>
+		</Row>
+
+		<!--Capital-->
+		<Row Tag="LOC_CITY_NAME_SAILOR_SSSRASHIENSTA" Language="ja_JP">
+			<Text>スプラシエンスタ</Text>
+		</Row>
+
+		<!--Civilopedia-->
+		<!--Extended Pedia entries can be found at the bottom of the document.-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_TITLE" Language="ja_JP">
+			<Text>ヴァルクラーナ・ミラキナル</Text>
+			<!--Used on leader pedia page.-->
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_SUBTITLE" Language="ja_JP">
+			<Text>ヴァルクラーナ・ミラキナル</Text>
+			<!--Used where?-->
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_QUOTE" Language="ja_JP">
+			<Text>
+				骸骨は、その姿からしてかわいい。
+			</Text>
+		</Row>
+
+		<!--Spellbook Button-->
+		<Row Tag="LOC_SAILOR_VALKRANA_BUTTON_NIL" Language="ja_JP">
+			<Text>あなたは使える呪文がありません。[ICON_GreatWork_Relic]遺物を探して、呪文書を強化しましょう。</Text>
+		</Row>
+		<Row Tag="LOC_SAILOR_VALKRANA_BUTTON_NOT_NIL" Language="ja_JP">
+			<Text>あなたの魔法書は魔法で満たされています。呪文を唱えることができます。さらに[ICON_GreatWork_Relic]遺物を見つけて、呪文書をさらにパワーアップさせましょう。</Text>
+		</Row>
+
+		<!--Spellbook-->
+		<Row Tag="LOC_SAILOR_VALKRANA_POPUP_TITLE" Language="ja_JP">
+			<Text>ヴァルクラーナの呪文書</Text>
+		</Row>
+		<Row Tag="LOC_SAILOR_VALKRANA_POPUP_SUBHEADER" Language="ja_JP">
+			<Text>呪文を選んで唱えたり、本を閉じて後で保存したりすることができます。</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_1_NAME" Language="ja_JP">
+			<Text>スクライ</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_1_DESCRIPTION" Language="ja_JP">
+			<Text>対象リーダーの所属する都市を永久に公開する。1回の使用で異なる都市を対象とし、また、都市の上空での視認半径を増加させる。指導者がいない場合、ランダムな区画を対象とする。</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_2_NAME" Language="ja_JP">
+			<Text>キネティックバリア</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_2_DESCRIPTION" Language="ja_JP">
+			<Text>自軍ユニットに防御時、戦闘力ボーナス+10を付与する。5ターン持続し、スタックする。</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_3_NAME" Language="ja_JP">
+			<Text>ウェルオブソウルズ</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_3_DESCRIPTION" Language="ja_JP">
+			<Text>自分のスケルトンを20に、最後にこの魔法を使ってから破壊したユニットの数の2倍を足した量だけ回復させる。現在の回復量 </Text>
+		</Row>
+		<Row Tag="LOC_SPELL_4_NAME" Language="ja_JP">
+			<Text>Skeleport</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_4_DESCRIPTION" Language="ja_JP">
+			<Text>ターゲットのリーダーの都市の近くに敵対するスケルトンを2～3体出現させる。指導者がいない場合、ランダムな区画を対象とする。</Text>
+		</Row>
+		<!--Spellbook Ability-->
+		<Row Tag="LOC_ABILITY_SAILOR_VALKRANA_SPELL2_NAME" Language="ja_JP">
+			<Text>キネティックバリア</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SAILOR_VALKRANA_SPELL2_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Strength]防御時の戦闘力を+10する。</Text>
+		</Row>
+		<Row Tag="LOC_SAILOR_VALKRANA_BARRIER_PREVIEW_TEXT" Language="ja_JP">
+			<Text>キネティックバリアから+10</Text>
+		</Row>
+		<!--Targets-->
+		<Row Tag="LOC_SAILOR_VALKRANA_TARGETS_SUBHEADER" Language="ja_JP">
+			<Text>ターゲットを選ぶ。</Text>
+		</Row>
+
+		<!--UU-->
+		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UU_NAME" Language="ja_JP">
+			<Text>スケルトン</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UU_DESCRIPTION" Language="ja_JP">
+			<Text>戦士の代わりとなるユニークな長持ちする近接ユニット。図書館の建設が開始されると戦闘力+10 [ICON_Strength]を、大学と研究所の建設が開始されると戦闘力+20 [ICON_Strength]を獲得する。改良を修理したり、機能を削除することができます。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SAILOR_VALKRANA_UU_NAME" Language="ja_JP">
+			<Text>スケルトン</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SAILOR_VALKRANA_UU_DESCRIPTION" Language="ja_JP">
+			<Text>戦士の代わりとなるユニークな長持ちする近接ユニット。図書館の建設が開始されると戦闘力+10 [ICON_Strength]を、大学と研究所の建設が開始されると戦闘力+20 [ICON_Strength]を獲得する。改良を修理したり、機能を削除することができます。</Text>
+		</Row>
+
+		<!--UnitName-->
+		<Row Tag="LOC_UNITNAME_SUFFIX_SAILOR_SKELETONS" Language="ja_JP">
+			<Text>スケルトン</Text>
+		</Row>
+
+		<!--Reanimation Floater-->
+		<Row Tag="LOC_SAILOR_VALKRANA_REANIMATED" Language="ja_JP">
+			<Text>[COLOR_FLOAT_CULTURE]スケルトンが生き返った![ENDCOLOR]</Text>
+		</Row>
+
+		<!--Diplomacy-->
+		<!--FIRST MEET-->
+		<!--First AI line-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>私はヴァルクラーナ・ミラキナル、偉大で強大で無敵のヒーロー、イリヤナ・ミラキナルの右腕であり、最大のファンです。これが私の紹介です。</Text>
+		</Row>
+		<!--AI invitation to visit nearby City-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>私は最寄りの都市から黒魔術の嵐を見るために、ハッチを叩いています。お前もそうしろ ...だが、ダーリンの俺と一緒には無理だ。</Text>
+		</Row>
+		<!--AI accepts Human invitation-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>「ケイ。</Text>
+		</Row>
+		<!--AI invitation to exchange Capital Information-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>スプラシエンスタは、インセクトロイドやアンデッド、ゴブリンやオーガがあふれ、人間が死を望めば、そこにいるかもしれない。あと、パフェもある。...骨抜きにされることもある。</Text>
+		</Row>
+
+		<!--GREETINGS-->
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>こんにちは ...こんにちは ...こんにちは</Text>
+		</Row>
+
+		<!--DELEGATION-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>「ケイ。</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>お前の汚い下っ端が俺のダーリンに手を出すんじゃないよ。</Text>
+		</Row>
+		<!--AI Requests -->
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>かわいい骸骨のガラガラ行列を想像してください。一人は海藻 &#38; ライチクッキーの入ったバスケットを持っています。もう一人は、レアなマジックアイテムを持っています。うわー。それはあなたにとってイジメになりますよ。</Text>
+		</Row>
+		<!--Human Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>「ケイ。</Text>
+		</Row>
+
+		<!--EMBASSY-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>「ケイ。</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>ああ。私のぎこちなさが、歓迎されている印象を与えてしまったのでしょうか。すみません。それは嘘です。</Text>
+		</Row>
+		<!--AI Requests -->
+		<Row Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>あなたの資本にいくつかの骸骨が眠っていることでしょう。公的な立場で。</Text>
+		</Row>
+		<!--Human Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>「ケイ。</Text>
+		</Row>
+
+		<!--OPEN BORDERS-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>「ケイ。</Text>
+		</Row>
+		<!--AI rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>墓にもぐりこんでください。さよなら</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>私の骸骨があなたの領土を行進します。</Text>
+		</Row>
+
+		<!--DECLARE FRIENDSHIP-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>え？なぜ？「ケイ。モータル：彼らは何であり、なぜ彼らは存在さえ気にするのか？"には、あなたがしばしば友人がいるという幻想を維持する必要があることが書かれています。</Text>
+		</Row>
+		<!--AI Rejects from human -->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>さようなら。</Text>
+		</Row>
+		<!--AI Requests friendship from human-->
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>私たちは友達ではありません。しかし、我々の敵はこれを知る必要はない。私はプロパガンダを開始します。</Text>
+		</Row>
+		<!--Human accepts AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>You too. Bye.</Text>
+		</Row>
+		<!--Human rejects AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>「ケイ。 あなたもね じゃあね</Text>
+		</Row>
+
+		<!--ALLIANCE-->
+		<!--AI Requests an alliance from human-->
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>共謀するのが得策だ ええと、お互いにね。</Text>
+		</Row>
+		<!--AI warns player for border troops-->
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>なぜここにいるんだ？消えろ さもなければ、私はかわいい新しい骸骨を手に入れることになる。</Text>
+		</Row>
+
+		<!--TRADE-->
+		<!--AI Accepts Deal-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>「ケイ。</Text>
+		</Row>
+		<!--AI Rejects Deal-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>いいえ、さようなら。</Text>
+		</Row>
+
+		<!--DENOUNCE-->
+		<!--From Human-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>「ケイ。</Text>
+		</Row>
+		<!--From AI-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>あなたは愚かです。あなたは死ぬでしょう そして愚かな死体となって残るでしょう (あなたを糾弾する)</Text>
+		</Row>
+
+		<!--DECLARE WAR-->
+		<!--Human Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>宣戦布告か？黒魔術師に？よく考えもせず、馬鹿にしてるな</Text>
+		</Row>
+		<!--AI Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>私の愛しい人とその夢の間に割って入る勇気のあるあなた... 私の献身的な行為を目にすることになるだろう</Text>
+		</Row>
+
+		<!--MAKE PEACE-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>「ケイ。</Text>
+		</Row>
+		<!--AI refuses human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>平和？しかし、私は呪文も骸骨も使い果たしてしまった。取りに来い</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>アンデッドは永遠に続くが、我々の戦争はそうする必要はない。</Text>
+		</Row>
+
+		<!--DEFEAT-->
+		<!--AI is Defeated-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>私はダーリンを失望させた。私は無価値で嫌われ者なのに......ダーリンは私のダーリンの私を受け入れてくれた ...それでも私は彼女を裏切ったのだ</Text>
+		</Row>
+		<!--Human is Defeated (will see this in hotseat)-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>お前は死んだんだ、愚かな死体を残してな。</Text>
+		</Row>
+
+
+		<!--LEADER AGENDA-->
+		<Row Tag="LOC_AGENDA_SAILOR_VALKRANA_NAME" Language="ja_JP">
+			<Text>不器用なインフォモンガー</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_SAILOR_VALKRANA_DESCRIPTION" Language="ja_JP">
+			<Text>ヴァルクラーナは不器用であり、他の文明との外交スコアに永久的なペナルティを負っている。ある文明が遺物を発見するたびに、その文明に対する彼女の評価はわずかに、しかし永久に、最大で5倍まで向上する。彼女は自分をスパイした文明を憎んでいる。ヴァルクラーナは科学と諜報活動に重点を置いている。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAILOR_VALKRANA_AWKWARD" Language="ja_JP">
+			<Text>すごく不器用なんですね。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_SAILOR_VALKRANA_REASON_SPY" Language="ja_JP">
+			<Text>(ヴァルクラーナのことをスパイしていたのか）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAILOR_VALKRANA_SPY" Language="ja_JP">
+			<Text>あなたのスパイ活動に不信感を抱いています。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_SAILOR_VALKRANA_REASON_RELIC" Language="ja_JP">
+			<Text>(あなたは遺物を発見した)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAILOR_VALKRANA_RELIC" Language="ja_JP">
+			<Text>遺物を発見したんですね。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_SAILOR_VALKRANA_REASON_ANY" Language="ja_JP">
+			<Text>(遺物を発見した)</Text>
+		</Row>
+
+		<!--AI Kudos-->
+		<!--Default-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>昨日、骸骨が悪評・暗愚な評判 '22のボトルの栓を抜くのを、私は隠れて見ていた。なんて難解なんだ。(遺物を見つけたな)</Text>
+		</Row>
+		<!--These will be semi-randomized and (hopefully) injected to replace the default.-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_1" Language="ja_JP">
+			<Text>昨日、骸骨が悪評・暗愚な評判 '22のボトルの栓を抜くのを、私は隠れて見ていた。なんて難解なんだ。(遺物を見つけたな)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_2" Language="ja_JP">
+			<Text>魔道書には信じられないような知識が詰まっています。例えば "闇の書 "の184ページには... (遺物)を見つけたんだね。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_3" Language="ja_JP">
+			<Text>カタログに魔法のアイテムがまた一つ増えました。早くダーリンに教えてあげたい。えへへへへへへ。(遺物)を見つけたんだね。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_4" Language="ja_JP">
+			<Text>時々、えーと、時々、ダーリンが空飛ぶほうきに乗って、ダーリンの後ろに乗るのを許してくれるんだけど、彼女の髪が僕の顔や口に入ってきて、彼女の香ばしい椎骨の匂いがするんだ。そしてこの時、この時... (遺物を発見した)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_5" Language="ja_JP">
+			<Text>ワンドはあらゆる魔法を蓄えることができます。ワンドを使えば、資源を節約できます。ワンドを使って、魔法を体験してください。杖を使う。(遺物を発見した)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_6" Language="ja_JP">
+			<Text>マジックアイテムの最後のチャージを消費するのは苦いものです。どちらも、そのアイテムを使うのはあなたが最後なのです。(遺物を発見した)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_7" Language="ja_JP">
+			<Text>好きなマジックアイテムは何ですか？ダーリンの私に選ばせることはできない。(遺物を発見した)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_8" Language="ja_JP">
+			<Text>まさか「骨だらけのデッキ」が知覚を持つようになるとは思わなかった。しかし、私は気にしない。(遺物を発見した)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_9" Language="ja_JP">
+			<Text>平凡に見える魔法のアイテムも見逃してはいけない。日常の小さなことが、ダーリンの人生を豊かにする。魔法も同じです。(遺物を発見した)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_0" Language="ja_JP">
+			<Text>箔押しの限定版「冥府の住人」のスタッフですか(・∀・)イイネ! (遺物を発見した)</Text>
+		</Row>
+
+		<!--AI Warnings-->
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
+			<Text>このような哀れな諜報活動を続けることは、あなた自身の危険である。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
