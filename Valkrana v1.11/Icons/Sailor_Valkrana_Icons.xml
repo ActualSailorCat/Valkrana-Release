@@ -1,0 +1,37 @@
+<GameInfo>
+	<IconTextureAtlases>
+		<!--Leader-->
+		<Row Name="ICON_ATLAS_LEADER_SAILOR_VALKRANA" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SAILOR_VALKRANA_32.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_SAILOR_VALKRANA" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SAILOR_VALKRANA_45.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_SAILOR_VALKRANA" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SAILOR_VALKRANA_50.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_SAILOR_VALKRANA" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SAILOR_VALKRANA_55.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_SAILOR_VALKRANA" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SAILOR_VALKRANA_64.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_SAILOR_VALKRANA" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SAILOR_VALKRANA_80.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_SAILOR_VALKRANA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SAILOR_VALKRANA_256.dds"/>
+		<Row Name="ICON_ATLAS_SAILOR_VALKRANA_COLOR" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SAILOR_VALKRANA_COLOR_45.dds"/>
+		<Row Name="ICON_ATLAS_SAILOR_VALKRANA_COLOR" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SAILOR_VALKRANA_COLOR_256.dds"/>
+		<!--UU-->
+		<Row Name="ICON_ATLAS_SAILOR_VALKRANA_UU" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SAILOR_VALKRANA_UU_22.dds"/>
+		<Row Name="ICON_ATLAS_SAILOR_VALKRANA_UU" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SAILOR_VALKRANA_UU_32.dds"/>
+		<Row Name="ICON_ATLAS_SAILOR_VALKRANA_UU" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SAILOR_VALKRANA_UU_38.dds"/>
+		<Row Name="ICON_ATLAS_SAILOR_VALKRANA_UU" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SAILOR_VALKRANA_UU_50.dds"/>
+		<Row Name="ICON_ATLAS_SAILOR_VALKRANA_UU" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SAILOR_VALKRANA_UU_80.dds"/>
+		<Row Name="ICON_ATLAS_SAILOR_VALKRANA_UU" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SAILOR_VALKRANA_UU_256.dds"/>
+		<!--UU Portrait-->
+		<Row Name="ICON_ATLAS_SAILOR_VALKRANA_UU_PORTRAIT" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_SAILOR_VALKRANA_UU_PORTRAIT_38.dds"/>
+		<Row Name="ICON_ATLAS_SAILOR_VALKRANA_UU_PORTRAIT" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_SAILOR_VALKRANA_UU_PORTRAIT_50.dds"/>
+		<Row Name="ICON_ATLAS_SAILOR_VALKRANA_UU_PORTRAIT" IconSize="70" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_SAILOR_VALKRANA_UU_PORTRAIT_70.dds"/>
+		<Row Name="ICON_ATLAS_SAILOR_VALKRANA_UU_PORTRAIT" IconSize="95" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_SAILOR_VALKRANA_UU_PORTRAIT_95.dds"/>
+		<Row Name="ICON_ATLAS_SAILOR_VALKRANA_UU_PORTRAIT" IconSize="200" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_SAILOR_VALKRANA_UU_PORTRAIT_200.dds"/>
+		<Row Name="ICON_ATLAS_SAILOR_VALKRANA_UU_PORTRAIT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_SAILOR_VALKRANA_UU_PORTRAIT_256.dds"/>
+		<!--Religion-->
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_SAILOR_VALKRANA"				Atlas="ICON_ATLAS_LEADER_SAILOR_VALKRANA" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_SAILOR_VALKRANA_COLOR"	Atlas="ICON_ATLAS_SAILOR_VALKRANA_COLOR" Index="0"/>
+		<Row Name="ICON_UNIT_SAILOR_VALKRANA_UU"			Atlas="ICON_ATLAS_SAILOR_VALKRANA_UU" Index="0"/>
+		<Row Name="ICON_UNIT_SAILOR_VALKRANA_UU_PORTRAIT"	Atlas="ICON_ATLAS_SAILOR_VALKRANA_UU_PORTRAIT" Index="0"/>
+		<!--<Row Name="ICON_RELIGION_SAILOR_COI"				Atlas="ICON_ATLAS_RELIGIONS_ZOROASTRIANISM" Index="0"/>-->
+	</IconDefinitions>
+</GameInfo>
