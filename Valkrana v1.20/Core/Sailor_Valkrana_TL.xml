@@ -2567,7 +2567,7 @@
 		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UA_DESCRIPTION_MODE" Language="it_IT">
 			<Text>Ottiene un utilizzo del suo Libro degli Incantesimi quando ottiene per la prima volta una [ICON_GreatWork_Relic] Reliquia diversa. La Libreria ottiene uno slot per [ICON_GreatWork_Relic] Reliquie, che forniscono +0.5 punti [ICON_GreatScientist] Grande Scienziato per turno. Le unità di terra perdute o sconfitte hanno una probabilità del 10% di essere rianimate come Scheletri sotto il suo controllo. Ottiene l'unità Scheletro.</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_DETAILED_BODY" Language="it_IT" Language="it_IT">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_DETAILED_BODY" Language="it_IT">
 			<Text>
 				LIBRO DEGLI INCANTESIMI[NEWLINE][ICON_Bullet][COLOR_FLOAT_CULTURE]Divinazione[ENDCOLOR] - Rivela permanentemente una città del leader bersaglio. Sceglie una città differente a ogni utilizzo, oppure aumenta il raggio visivo sulla città. Seleziona una casella casuale se nessun leader è stato incontrato.[NEWLINE][ICON_Bullet][COLOR_MEDIUM_GREEN]Barriera Cinetica[ENDCOLOR] - Fornisce alle tue unità +10 alla Forza di Combattimento quando si difendono. Dura 5 turni, accumulabili.[NEWLINE][ICON_Bullet][COLOR:72,39,111,255]Pozzo delle Anime[ENDCOLOR] - Cura i tuoi scheletri di una quantità pari a 20, più il numero raddoppiato di unità distrutte dall'ultimo utilizzo dell'incantesimo.[NEWLINE][ICON_Bullet][COLOR:72,39,111,255]Scheletrasporto[ENDCOLOR] - Fa comparire 3 scheletri ostili vicino alla città del leader bersaglio. Seleziona una casella casuale se nessun leader è stato incontrato.
 			</Text>
