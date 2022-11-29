@@ -21,7 +21,7 @@
 			<Text>首次獲得每個 [ICON_GreatWork_Relic] 遺物後，您就可以使用您的法術書一次。 圖書館有一個放置 [ICON_GreatWork_Relic] 遺物的槽位，每回合提供 +2 [ICON_GreatScientist] 大科學家點數。 在戰鬥中丟失或摧毀的陸地單位有 10% 的機率在你的控制下復活為骷髏。 解鎖骷髏單位。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UA_DESCRIPTION_MODE" Language="zh_Hant_HK">
-			<Text>首次獲得每個 [ICON_GreatWork_Relic] 遺物後，您就可以使用您的法術書一次。 圖書館有一個放置 [ICON_GreatWork_Relic] 遺物的槽位，每回合提供 +0.5 [ICON_GreatScientist] 大科學家點數。 在戰鬥中丟失或摧毀的陸地單位有 10% 的機率在你的控制下復活為骷髏。 解鎖骷髏單位。</Text>
+			<Text>首次獲得每個 [ICON_GreatWork_Relic] 遺物後，您就可以使用您的法術書一次。 圖書館有一個放置 [ICON_GreatWork_Relic] 遺物的槽位，每回合提供 +1 [ICON_GreatScientist] 大科學家點數。 在戰鬥中丟失或摧毀的陸地單位有 10% 的機率在你的控制下復活為骷髏。 解鎖骷髏單位。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_DETAILED_BODY" Language="zh_Hant_HK">
 			<Text>
@@ -394,7 +394,7 @@
 			<Text>首次获得每个 [ICON_GreatWork_Relic] 遗物后，您就可以使用您的法术书一次。 图书馆有一个放置 [ICON_GreatWork_Relic] 遗物的槽位，每回合提供 +2 [ICON_GreatScientist] 大科学家点数。 在战斗中丢失或摧毁的陆地单位有 10% 的几率在你的控制下复活为骷髅。 解锁骷髅单位。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UA_DESCRIPTION_MODE" Language="zh_Hans_CN">
-			<Text>首次获得每个 [ICON_GreatWork_Relic] 遗物后，您就可以使用您的法术书一次。 图书馆有一个放置 [ICON_GreatWork_Relic] 遗物的槽位，每回合提供 +0.5 [ICON_GreatScientist] 大科学家点数。 在战斗中丢失或摧毁的陆地单位有 10% 的几率在你的控制下复活为骷髅。 解锁骷髅单位。</Text>
+			<Text>首次获得每个 [ICON_GreatWork_Relic] 遗物后，您就可以使用您的法术书一次。 图书馆有一个放置 [ICON_GreatWork_Relic] 遗物的槽位，每回合提供 +1 [ICON_GreatScientist] 大科学家点数。 在战斗中丢失或摧毁的陆地单位有 10% 的几率在你的控制下复活为骷髅。 解锁骷髅单位。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
 			<Text>
@@ -769,7 +769,7 @@
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UA_DESCRIPTION_MODE" Language="ru_RU">
 			<Text>
-				Вы получаете одно использование своей книги заклинаний при первом получении каждой реликвии [ICON_GreatWork_Relic]. В библиотеке есть слот для [ICON_GreatWork_Relic] реликвий, которые дают +0.5 [ICON_GreatScientist] очка великого ученого за ход. 10% шанс, что наземные юниты, потерянные или уничтоженные в бою, будут реанимированы в виде скелетов под вашим контролем. Разблокирует отряд скелетов.
+				Вы получаете одно использование своей книги заклинаний при первом получении каждой реликвии [ICON_GreatWork_Relic]. В библиотеке есть слот для [ICON_GreatWork_Relic] реликвий, которые дают +1 [ICON_GreatScientist] очка великого ученого за ход. 10% шанс, что наземные юниты, потерянные или уничтоженные в бою, будут реанимированы в виде скелетов под вашим контролем. Разблокирует отряд скелетов.
 			</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_DETAILED_BODY" Language="ru_RU">
@@ -1146,7 +1146,7 @@
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UA_DESCRIPTION_MODE" Language="de_DE">
 			<Text>
-				Sie erhalten eine Verwendung Ihres Zauberbuchs, wenn Sie zum ersten Mal jedes [ICON_GreatWork_Relic]-Relikt erhalten. Die Bibliothek hat einen Platz für [ICON_GreatWork_Relic]-Relikte, die pro Zug +0.5 [ICON_GreatScientist]-Punkte für große Wissenschaftler bringen. 10 % Chance, dass im Kampf verlorene oder zerstörte Landeinheiten als Skelett unter Ihrer Kontrolle wiederbelebt werden. Schaltet die Skeletteinheit frei.
+				Sie erhalten eine Verwendung Ihres Zauberbuchs, wenn Sie zum ersten Mal jedes [ICON_GreatWork_Relic]-Relikt erhalten. Die Bibliothek hat einen Platz für [ICON_GreatWork_Relic]-Relikte, die pro Zug +1 [ICON_GreatScientist]-Punkte für große Wissenschaftler bringen. 10 % Chance, dass im Kampf verlorene oder zerstörte Landeinheiten als Skelett unter Ihrer Kontrolle wiederbelebt werden. Schaltet die Skeletteinheit frei.
 			</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_DETAILED_BODY" Language="de_DE">
@@ -1519,7 +1519,7 @@
 			<Text>各 [ICON_GreatWork_Relic] レリックを最初に取得すると、スペルブックを 1 回使用できます。 図書館には [ICON_GreatWork_Relic] 遺物用のスロットがあり、ターンごとに +2 [ICON_GreatScientist] 偉大な科学者ポイントを提供します。 戦闘で失われた、または破壊された陸上ユニットが 10% の確率で、あなたのコントロール下でスケルトンとして復活します。 スケルトン ユニットのロックを解除します。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UA_DESCRIPTION_MODE" Language="ja_JP">
-			<Text>各 [ICON_GreatWork_Relic] レリックを最初に取得すると、スペルブックを 1 回使用できます。 図書館には [ICON_GreatWork_Relic] 遺物用のスロットがあり、ターンごとに +0.5 [ICON_GreatScientist] 偉大な科学者ポイントを提供します。 戦闘で失われた、または破壊された陸上ユニットが 10% の確率で、あなたのコントロール下でスケルトンとして復活します。 スケルトン ユニットのロックを解除します。</Text>
+			<Text>各 [ICON_GreatWork_Relic] レリックを最初に取得すると、スペルブックを 1 回使用できます。 図書館には [ICON_GreatWork_Relic] 遺物用のスロットがあり、ターンごとに +1 [ICON_GreatScientist] 偉大な科学者ポイントを提供します。 戦闘で失われた、または破壊された陸上ユニットが 10% の確率で、あなたのコントロール下でスケルトンとして復活します。 スケルトン ユニットのロックを解除します。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_DETAILED_BODY" Language="ja_JP">
 			<Text>
@@ -1891,7 +1891,7 @@
 			<Text>Ganas un uso de tu libro de hechizos al obtener por primera vez cada [ICON_GreatWork_Relic] Reliquia. La Biblioteca tiene una ranura para [ICON_GreatWork_Relic] Reliquias, que proporcionan +2 puntos de [ICON_GreatScientist] Gran Científico por turno. 10% de probabilidad de que las unidades terrestres perdidas o destruidas en combate sean reanimadas como un Esqueleto bajo tu control. Desbloquea la unidad Esqueleto.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UA_DESCRIPTION_MODE" Language="es_ES">
-			<Text>Ganas un uso de tu libro de hechizos al obtener por primera vez cada [ICON_GreatWork_Relic] Reliquia. La Biblioteca tiene una ranura para [ICON_GreatWork_Relic] Reliquias, que proporcionan +0.5 puntos de [ICON_GreatScientist] Gran Científico por turno. 10% de probabilidad de que las unidades terrestres perdidas o destruidas en combate sean reanimadas como un Esqueleto bajo tu control. Desbloquea la unidad Esqueleto.</Text>
+			<Text>Ganas un uso de tu libro de hechizos al obtener por primera vez cada [ICON_GreatWork_Relic] Reliquia. La Biblioteca tiene una ranura para [ICON_GreatWork_Relic] Reliquias, que proporcionan +1 puntos de [ICON_GreatScientist] Gran Científico por turno. 10% de probabilidad de que las unidades terrestres perdidas o destruidas en combate sean reanimadas como un Esqueleto bajo tu control. Desbloquea la unidad Esqueleto.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_DETAILED_BODY" Language="es_ES">
 			<Text>

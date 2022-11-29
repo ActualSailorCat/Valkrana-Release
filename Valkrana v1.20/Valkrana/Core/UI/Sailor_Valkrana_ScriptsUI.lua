@@ -104,7 +104,7 @@ local iGSP_MODE		= 2; -- Points per relic.
 local sTraitDesc	= DB.Query("SELECT Description FROM Traits WHERE TraitType = 'TRAIT_LEADER_SAILOR_VALKRANA_UA'")[1].Description;
 -- Lower relic points during certain modes due to overabundance of relics.
 if sTraitDesc == 'LOC_TRAIT_LEADER_SAILOR_VALKRANA_UA_DESCRIPTION_MODE' then
-	iGSP_MODE = 0.5;
+	iGSP_MODE = 1;
 end
 -- Grants +iGSP_MODE Great Scientist points per relic per turn.
 function Sailor_RelicGSP()

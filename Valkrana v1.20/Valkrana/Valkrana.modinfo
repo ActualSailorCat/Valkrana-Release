@@ -3,7 +3,7 @@
   <Properties>
     <Name>[COLOR:252,73,178,255]Valkrana[ENDCOLOR] of Russia</Name>
     <Description>Adds [COLOR:252,73,178,255]Valkrana[ENDCOLOR] as an alternative leader of the Russian civilization.[NEWLINE][NEWLINE][ICON_Bullet]Unique Ability: [COLOR:252,73,178,255]Arcanum Necromantic[ENDCOLOR][NEWLINE]You gain one use of your spellbook upon first obtaining each [ICON_GreatWork_Relic] Relic. The Library has a slot for [ICON_GreatWork_Relic] Relics, which provide +2 [ICON_GreatScientist] Great Scientist points per turn. 10% chance for land units lost or destroyed in combat to be reanimated as a Skeleton under your control. Unlocks the Skeleton unit.[NEWLINE][NEWLINE][ICON_Bullet]Unique Unit: [COLOR:252,73,178,255]Skeleton[ENDCOLOR][NEWLINE]Unique long-lasting melee unit that replaces the warrior. Gains +10 [ICON_Strength] Combat Strength when the Library is first constructed, and +20 [ICON_Strength] Combat Strength when the University and Research Lab are first constructed. Can repair improvements and remove features.[NEWLINE][NEWLINE][ICON_Bullet]Agenda: [COLOR:252,73,178,255]Awkward Infomonger[ENDCOLOR][NEWLINE]Valkrana is awkward, and has a permanent penalty to diplomatic score with other civilizations. Each Relic a civilization discovers will slightly but permanently improve her opinion of that civilization, up to five times. She hates civilizations that have spied on her. Valkrana's main focuses are science and espionage.</Description>
-    <Created>1669656259</Created>
+    <Created>1669696001</Created>
     <Teaser>Adds the Valkrana leader.</Teaser>
     <Authors>Sailor Cat</Authors>
     <SpecialThanks>Anpuraya, Deliverator, JNR, LastSword, Leugi, SeelingCat, iPlayGamesITA, josearte777</SpecialThanks>
