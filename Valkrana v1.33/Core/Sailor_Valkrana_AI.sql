@@ -1,0 +1,235 @@
+--///////////////////////////////////////////////////////
+-- Valkrana / Agenda
+--///////////////////////////////////////////////////////
+INSERT INTO Types
+		(Type,								Kind)
+VALUES	('TRAIT_AGENDA_SAILOR_VALKRANA',	'KIND_TRAIT');
+
+INSERT INTO Agendas
+		(AgendaType,				Name,								Description)
+VALUES	('AGENDA_SAILOR_VALKRANA',	'LOC_AGENDA_SAILOR_VALKRANA_NAME',	'LOC_AGENDA_SAILOR_VALKRANA_DESCRIPTION');
+
+INSERT INTO Traits
+		(TraitType,							Name,					Description)
+VALUES	('TRAIT_AGENDA_SAILOR_VALKRANA',	'LOC_PLACEHOLDER',		'LOC_PLACEHOLDER');
+
+INSERT INTO AgendaTraits
+		(AgendaType,				TraitType)
+VALUES	('AGENDA_SAILOR_VALKRANA',	'TRAIT_AGENDA_SAILOR_VALKRANA');
+
+INSERT INTO HistoricalAgendas
+		(LeaderType,				AgendaType)
+VALUES	('LEADER_SAILOR_VALKRANA',	'AGENDA_SAILOR_VALKRANA');
+
+INSERT INTO ExclusiveAgendas
+		(AgendaOne,					AgendaTwo)
+VALUES	('AGENDA_SAILOR_VALKRANA',	'AGENDA_DEVOUT'),
+		('AGENDA_SAILOR_VALKRANA',	'AGENDA_TECHNOPHILE'),
+		('AGENDA_SAILOR_VALKRANA',	'AGENDA_FLAT_EARTHER');
+
+INSERT INTO TraitModifiers
+		(TraitType,							ModifierId)
+VALUES	('TRAIT_AGENDA_SAILOR_VALKRANA',	'AGENDA_SAILOR_VALKRANA_SPY_YES'),
+		('TRAIT_LEADER_MAJOR_CIV',			'STANDARD_DIPLOMATIC_SAILOR_VALKRANA'); -- Awkward Penalty
+-- // Relics
+-- SELECT FROM Routes here for ease of use since it has 5 rows. Added a catch just in case.
+-- If someone starts deleting routes then that's on them.
+INSERT INTO Types (Type, Kind) SELECT 'BUILDING_SAILOR_VALKRANA_'||RowID, 'KIND_BUILDING' FROM Routes WHERE RowID < 6;
+INSERT INTO Buildings (BuildingType, Name, Cost, PrereqDistrict, InternalOnly)
+SELECT 'BUILDING_SAILOR_VALKRANA_'||RowID, 'Placeholder', 0, 'DISTRICT_CITY_CENTER', 1 FROM Routes WHERE RowID < 6;
+INSERT INTO TraitModifiers (TraitType, ModifierId) SELECT 'TRAIT_AGENDA_SAILOR_VALKRANA', 'AGENDA_SAILOR_VALKRANA_RELIC_'||RowID
+FROM Routes WHERE RowID < 6;
+
+INSERT INTO Modifiers	
+		(ModifierId,							ModifierType,									SubjectRequirementSetId)
+VALUES	('AGENDA_SAILOR_VALKRANA_SPY_YES',		'MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER',	'SAILOR_VALKRANA_SPY_YES_REQUIREMENTSET'),
+		('STANDARD_DIPLOMATIC_SAILOR_VALKRANA',	'MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER',	'SAILOR_VALKRANA_REQUIREMENTSET');
+
+INSERT INTO Modifiers
+		(ModifierId,							ModifierType,									SubjectRequirementSetId)
+SELECT	'AGENDA_SAILOR_VALKRANA_RELIC_'||RowID,	'MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER',	'SAILOR_VALKRANA_RELIC_REQUIREMENTSET_'||RowID
+FROM Routes WHERE RowID < 6;
+
+INSERT INTO ModifierArguments
+		(ModifierId,							Name,							Value)
+VALUES	('AGENDA_SAILOR_VALKRANA_SPY_YES',		'InitialValue',					-25),
+		('AGENDA_SAILOR_VALKRANA_SPY_YES',		'ReductionTurns',				17),
+		('AGENDA_SAILOR_VALKRANA_SPY_YES',		'ReductionValue',				1),
+		('AGENDA_SAILOR_VALKRANA_SPY_YES',		'StatementKey',					'LOC_DIPLO_WARNING_LEADER_SAILOR_VALKRANA_REASON_SPY'),
+		('AGENDA_SAILOR_VALKRANA_SPY_YES',		'SimpleModifierDescription',	'LOC_DIPLO_MODIFIER_SAILOR_VALKRANA_SPY'),
+		('STANDARD_DIPLOMATIC_SAILOR_VALKRANA',	'InitialValue',					-5),
+		('STANDARD_DIPLOMATIC_SAILOR_VALKRANA',	'SimpleModifierDescription',	'LOC_DIPLO_MODIFIER_SAILOR_VALKRANA_AWKWARD');
+-- Relics
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+SELECT 'AGENDA_SAILOR_VALKRANA_RELIC_'||RowID, 'InitialValue', 3 FROM Routes WHERE RowID < 6;
+/* Small bonus but no reduction.
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+SELECT 'AGENDA_SAILOR_VALKRANA_RELIC_'||RowID, 'ReducitonTurns', 10 FROM Routes;
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+SELECT 'AGENDA_SAILOR_VALKRANA_RELIC_'||RowID, 'ReductionValue', -1 FROM Routes;
+*/
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+SELECT 'AGENDA_SAILOR_VALKRANA_RELIC_'||RowID, 'StatementKey', 'LOC_DIPLO_KUDO_LEADER_SAILOR_VALKRANA_REASON_RELIC' FROM Routes WHERE RowID < 6;
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+SELECT 'AGENDA_SAILOR_VALKRANA_RELIC_'||RowID, 'SimpleModifierDescription', 'LOC_DIPLO_MODIFIER_SAILOR_VALKRANA_RELIC' FROM Routes WHERE RowID < 6;
+
+INSERT INTO ModifierStrings
+		(ModifierId,							Context,		Text)
+VALUES	('AGENDA_SAILOR_VALKRANA_SPY_YES',		'Sample',		'LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL'),
+		('STANDARD_DIPLOMATIC_SAILOR_VALKRANA',	'Sample',		'LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL');
+
+INSERT INTO ModifierStrings (ModifierId, Context, Text)
+SELECT 'AGENDA_SAILOR_VALKRANA_RELIC_'||RowID, 'Sample', 'LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL' FROM Routes WHERE RowID < 6;
+
+INSERT INTO RequirementSets
+		(RequirementSetId,							RequirementSetType)
+VALUES	('SAILOR_VALKRANA_SPY_YES_REQUIREMENTSET',	'REQUIREMENTSET_TEST_ALL'),
+		('SAILOR_VALKRANA_REQUIREMENTSET',			'REQUIREMENTSET_TEST_ALL');
+
+INSERT INTO RequirementSets (RequirementSetId, RequirementSetType)
+SELECT 'SAILOR_VALKRANA_RELIC_REQUIREMENTSET_'||RowID, 'REQUIREMENTSET_TEST_ALL' FROM Routes WHERE RowID < 6;
+
+INSERT INTO RequirementSetRequirements
+		(RequirementSetId,							RequirementId)
+VALUES	('SAILOR_VALKRANA_SPY_YES_REQUIREMENTSET',	'REQUIRES_ESPIONAGE_DETECTED'),
+		('SAILOR_VALKRANA_SPY_YES_REQUIREMENTSET',	'REQUIRES_MAJOR_CIV_OPPONENT'),
+		('SAILOR_VALKRANA_SPY_YES_REQUIREMENTSET',	'REQUIRES_MET_10_TURNS_AGO'),
+		('SAILOR_VALKRANA_REQUIREMENTSET',			'SAILOR_REQUIRES_IS_VALKRANA');
+
+INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId)
+SELECT 'SAILOR_VALKRANA_RELIC_REQUIREMENTSET_'||RowID, 'SAILOR_VALKRANA_REQUIRES_'||RowID||'_RELICS' FROM Routes WHERE RowID < 6;
+
+INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId)
+SELECT 'SAILOR_VALKRANA_RELIC_REQUIREMENTSET_'||RowID, 'REQUIRES_MAJOR_CIV_OPPONENT'
+FROM Routes WHERE RowID < 6;
+
+INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId)
+SELECT 'SAILOR_VALKRANA_RELIC_REQUIREMENTSET_'||RowID, 'REQUIRES_PLAYERS_HAVE_MET'
+FROM Routes WHERE RowID < 6;
+
+INSERT INTO Requirements (RequirementId, RequirementType) VALUES ('SAILOR_REQUIRES_IS_VALKRANA', 'REQUIREMENT_PLAYER_LEADER_TYPE_MATCHES');
+
+INSERT INTO Requirements (RequirementId, RequirementType, Triggered)
+SELECT	'SAILOR_VALKRANA_REQUIRES_'||RowID||'_RELICS', 'REQUIREMENT_PLAYER_HAS_BUILDING', 1 FROM Routes WHERE RowID < 6;
+
+INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES ('SAILOR_REQUIRES_IS_VALKRANA', 'LeaderType', 'LEADER_SAILOR_VALKRANA');
+
+INSERT INTO RequirementArguments (RequirementId, Name, Value) 
+SELECT	'SAILOR_VALKRANA_REQUIRES_'||RowID||'_RELICS', 'BuildingType', 'BUILDING_SAILOR_VALKRANA_'||RowID FROM Routes WHERE RowID < 6;
+--///////////////////////////////////////////////////////
+-- Valkrana / AI
+--///////////////////////////////////////////////////////
+INSERT OR REPLACE INTO AiListTypes	
+		(ListType)
+VALUES	('SAILOR_VALKRANA_Strategies'),
+		('SAILOR_VALKRANA_Civics'),
+		('SAILOR_VALKRANA_Techs'),
+		('SAILOR_VALKRANA_Buildings'),
+		('SAILOR_VALKRANA_Districts'),
+		('SAILOR_VALKRANA_Improvements'),
+		('SAILOR_VALKRANA_PseudoYields'),
+		('SAILOR_VALKRANA_Yields'),
+		('SAILOR_VALKRANA_Units'),
+		('SAILOR_VALKRANA_UnitBuilds'),
+		('SAILOR_VALKRANA_Settle'),
+		('SAILOR_VALKRANA_Alliances'),
+		('SAILOR_VALKRANA_Diploaction'),
+		('SAILOR_VALKRANA_Discussions'),
+		('SAILOR_VALKRANA_Tactics'),
+		('SAILOR_VALKRANA_Resolutions');
+
+INSERT OR REPLACE INTO AiLists	
+		(ListType,							AgendaType,							System)
+VALUES	('SAILOR_VALKRANA_Strategies',		'TRAIT_AGENDA_SAILOR_VALKRANA',		'Strategies'),
+		('SAILOR_VALKRANA_Civics',			'TRAIT_AGENDA_SAILOR_VALKRANA',		'Civics'),
+		('SAILOR_VALKRANA_Techs',			'TRAIT_AGENDA_SAILOR_VALKRANA',		'Technologies'),
+		('SAILOR_VALKRANA_Buildings',		'TRAIT_AGENDA_SAILOR_VALKRANA',		'Buildings'),
+		('SAILOR_VALKRANA_Districts',		'TRAIT_AGENDA_SAILOR_VALKRANA',		'Districts'),
+		('SAILOR_VALKRANA_Improvements',	'TRAIT_AGENDA_SAILOR_VALKRANA',		'Improvements'),
+		('SAILOR_VALKRANA_PseudoYields',	'TRAIT_AGENDA_SAILOR_VALKRANA',		'PseudoYields'),
+		('SAILOR_VALKRANA_Yields',			'TRAIT_AGENDA_SAILOR_VALKRANA',		'Yields'),
+		('SAILOR_VALKRANA_Units',			'TRAIT_AGENDA_SAILOR_VALKRANA',		'Units'),
+		('SAILOR_VALKRANA_UnitBuilds',		'TRAIT_AGENDA_SAILOR_VALKRANA',		'UnitPromotionClasses'),
+		('SAILOR_VALKRANA_Settle',			'TRAIT_AGENDA_SAILOR_VALKRANA',		'Settle'),
+		('SAILOR_VALKRANA_Alliances',		'TRAIT_AGENDA_SAILOR_VALKRANA',		'Alliances'),
+		('SAILOR_VALKRANA_Diploaction',		'TRAIT_AGENDA_SAILOR_VALKRANA',		'DiplomaticActions'),
+		('SAILOR_VALKRANA_Discussions',		'TRAIT_AGENDA_SAILOR_VALKRANA',		'Discussions'),
+		('SAILOR_VALKRANA_Tactics',			'TRAIT_AGENDA_SAILOR_VALKRANA',		'Tactics'),
+		('SAILOR_VALKRANA_Resolutions',		'TRAIT_AGENDA_SAILOR_VALKRANA',		'Resolutions');
+
+INSERT OR REPLACE INTO AiFavoredItems	
+		(ListType,							Favored,	Item,								Value)
+VALUES	
+-- VICTORIES
+		('SAILOR_VALKRANA_Strategies',		1,			'VICTORY_STRATEGY_MILITARY_VICTORY', -1),
+		('SAILOR_VALKRANA_Strategies',		1,			'VICTORY_STRATEGY_SCIENCE_VICTORY',	 -1),
+-- YIELDS
+		('SAILOR_VALKRANA_Yields',			1,			'YIELD_SCIENCE',					20),		
+-- PSEUDOYIELDS
+		('SAILOR_VALKRANA_PseudoYields',	1,			'PSEUDOYIELD_GPP_SCIENTIST',		0),
+		('SAILOR_VALKRANA_PseudoYields',	1,			'PSEUDOYIELD_GREATWORK_RELIC',		500),
+		('SAILOR_VALKRANA_PseudoYields',	1,			'PSEUDOYIELD_TECHNOLOGY',			50),
+		--('SAILOR_VALKRANA_PseudoYields',	1,			'PSEUDOYIELD_UNIT_SAILOR_VALKRANA_UU', 500),
+		('SAILOR_VALKRANA_PseudoYields',	1,			'PSEUDOYIELD_UNIT_SPY',				500),
+		('SAILOR_VALKRANA_PseudoYields',	1,			'PSEUDOYIELD_STANDING_ARMY_NUMBER',	10),
+		('SAILOR_VALKRANA_PseudoYields',	1,			'PSEUDOYIELD_STANDING_ARMY_VALUE',	10),
+-- UNITS
+		('SAILOR_VALKRANA_Units',			1,			'UNIT_SAILOR_VALKRANA_UU',			200),
+		('SAILOR_VALKRANA_Units',			1,			'UNIT_SPY',							50),
+
+-- BUILDINGS & DISTRICTS			
+		('SAILOR_VALKRANA_Districts',		1,			'DISTRICT_CAMPUS',					50),	
+		('SAILOR_VALKRANA_Buildings',		1,			'BUILDING_ETEMENANKI',				0),
+		('SAILOR_VALKRANA_Buildings',		1,			'BUILDING_GREAT_LIBRARY',			50),
+		('SAILOR_VALKRANA_Buildings',		1,			'BUILDING_MONT_ST_MICHEL',			50),
+		('SAILOR_VALKRANA_Buildings',		1,			'BUILDING_OXFORD_UNIVERSITY',		0),
+-- CIVICS & TECHS
+		('SAILOR_VALKRANA_Techs',			1,			'TECH_COMPUTERS',					0),  
+		('SAILOR_VALKRANA_Techs',			1,			'TECH_WRITING',						50),
+-- ALLIANCES
+		('SAILOR_VALKRANA_Alliances',		1,			'ALLIANCE_RESEARCH',				0),
+		('SAILOR_VALKRANA_Alliances',		1,			'ALLIANCE_MILITARY',				0),
+-- DIPLOACTION
+		('SAILOR_VALKRANA_Diploaction',		0,			'DIPLOACTION_DECLARE_FRIENDSHIP',	0),
+		('SAILOR_VALKRANA_Diploaction',		0,			'DIPLOACTION_KEEP_PROMISE_DONT_SPY', 0),
+-- DISCUSSIONS
+		('SAILOR_VALKRANA_Discussions',		1,			'WC_EMERGENCY_MILITARY',			0),
+		('SAILOR_VALKRANA_Discussions',		0,			'WC_EMERGENCY_CITY_STATE',			0),
+		('SAILOR_VALKRANA_Discussions',		1,			'WC_EMERGENCY_NOBEL_PRIZE_PHYSICS',	0),
+		('SAILOR_VALKRANA_Discussions',		1,			'WC_EMERGENCY_CLIMATE_ACCORDS',		0),
+		('SAILOR_VALKRANA_Discussions',		1,			'WC_EMERGENCY_WORLD_FAIR',			0),
+		('SAILOR_VALKRANA_Discussions',		1,			'WC_EMERGENCY_SPACE_STATION',		0),
+		('SAILOR_VALKRANA_Discussions',		0,			'WC_EMERGENCY_RELIGIOUS',			0),
+		('SAILOR_VALKRANA_Discussions',		0,			'WC_EMERGENCY_BACKSTAB',			0),
+		('SAILOR_VALKRANA_Discussions',		0,			'WC_EMERGENCY_REQUEST_AID',			0),
+		('SAILOR_VALKRANA_Discussions',		0,			'WC_EMERGENCY_NUCLEAR',				0),
+		('SAILOR_VALKRANA_Discussions',		0,			'WC_EMERGENCY_WORLD_GAMES',			0),
+-- TACTICS
+		('SAILOR_VALKRANA_Tactics',			1,			'Move to Safety',					20),
+-- RESOLUTIONS
+		('SAILOR_VALKRANA_Resolutions',		0,			'WC_RES_WORLD_RELIGION',			0);
+-- CIVICS
+INSERT OR REPLACE INTO AiFavoredItems (ListType, Favored, Item, Value) SELECT 'SAILOR_VALKRANA_Civics', 1, CivicType, 0
+FROM CivicModifiers WHERE ModifierId = 'CIVIC_GRANT_SPY'; -- Spy Slots
+INSERT OR REPLACE INTO AiFavoredItems (ListType, Favored, Item, Value) SELECT 'SAILOR_VALKRANA_Civics', 1, PrereqCivic, 0    
+FROM Buildings WHERE BuildingType = 'BUILDING_MONT_ST_MICHEL'; -- Martyr Apostles
+-- TECHS
+INSERT OR REPLACE INTO AiFavoredItems (ListType, Favored, Item, Value) SELECT DISTINCT 'SAILOR_VALKRANA_Techs', 1, PrereqTech, 0    
+FROM Buildings WHERE BuildingType IN ('BUILDING_LIBRARY', 'BUILDING_UNIVERSITY', 'BUILDING_RESEARCH_LAB');
+-- BUILDINGS
+INSERT OR REPLACE INTO AiFavoredItems (ListType, Favored, Item, Value) SELECT 'SAILOR_VALKRANA_Buildings', 1, BuildingType, 0    
+FROM Buildings WHERE PrereqDistrict = 'DISTRICT_CAMPUS' AND TraitType IS NULL;
+INSERT OR REPLACE INTO AiFavoredItems (ListType, Favored, Item, Value) SELECT DISTINCT 'SAILOR_VALKRANA_Buildings', 1, 'BUILDING_TEMPLE_ARTEMIS', 0
+FROM Buildings WHERE (SELECT COUNT(*) FROM CivilizationLeaders WHERE LeaderType = 'LEADER_SAILOR_VALKRANA') = 1;
+
+-- // Expansion and DLC stuff here.
+INSERT OR REPLACE INTO AiFavoredItems (ListType, Favored, Item, Value) SELECT 'SAILOR_VALKRANA_Buildings', 1, 'BUILDING_APADANA', 0
+WHERE EXISTS (SELECT BuildingType FROM Buildings WHERE BuildingType = 'BUILDING_APADANA');
+INSERT OR REPLACE INTO AiFavoredItems (ListType, Favored, Item, Value) SELECT 'SAILOR_VALKRANA_Buildings', 1, 'BUILDING_GOV_SPIES', 25
+WHERE EXISTS (SELECT BuildingType FROM Buildings WHERE BuildingType = 'BUILDING_GOV_SPIES');
+INSERT OR REPLACE INTO AiFavoredItems (ListType, Favored, Item, Value) SELECT 'SAILOR_VALKRANA_Buildings', 1, 'BUILDING_ST_BASILS_CATHEDRAL', 25
+WHERE EXISTS (SELECT BuildingType FROM Buildings WHERE BuildingType = 'BUILDING_ST_BASILS_CATHEDRAL');
+INSERT OR REPLACE INTO AiFavoredItems (ListType, Favored, Item, Value) SELECT 'SAILOR_VALKRANA_Buildings', 1, 'BUILDING_UNIVERSITY_SANKORE', 0
+WHERE EXISTS (SELECT BuildingType FROM Buildings WHERE BuildingType = 'BUILDING_UNIVERSITY_SANKORE');

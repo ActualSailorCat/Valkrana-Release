@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!--This doesn't work when added through BaseGameText-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>
+				SPELLBOOK[NEWLINE][ICON_Bullet][COLOR_FLOAT_CULTURE]Scry[ENDCOLOR] - Permanently reveal a city belonging to target leader. Targets a different city per use, or increases your visibility radius over a city. Targets a random plot if no leaders have been met.[NEWLINE][ICON_Bullet][COLOR_MEDIUM_GREEN]Kinetic Barrier[ENDCOLOR] - Grant your units a +10 Combat Strength bonus when defending. Lasts 5 turns and stacks duration.[NEWLINE][ICON_Bullet][COLOR:72,39,111,255]Well of Souls[ENDCOLOR] - Heal your skeletons for an amount equal to 20 plus twice the number of units you have destroyed since you last used this spell.[NEWLINE][ICON_Bullet][COLOR:72,39,111,255]Skeleport[ENDCOLOR] - Spawn 3 hostile skeletons near target leader's city. Targets a random plot if no leaders have been met.
+			</Text>
+		</Row>
+	</LocalizedText>
+	<BaseGameText>
+		<Row Tag="LOC_LEADER_SAILOR_VALKRANA_NAME">
+			<Text>Valkrana</Text>
+			<!--Used on loading screen, pedia list, and civ pedia.-->
+		</Row>
+
+		<!--UA-->
+		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UA_NAME">
+			<Text>Arcanum Necromantic</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UA_DESCRIPTION">
+			<Text>You gain one use of your spellbook upon first obtaining each [ICON_GreatWork_Relic] Relic. The Library has a slot for [ICON_GreatWork_Relic] Relics, which provide +2 [ICON_GreatScientist] Great Scientist points per turn. 10% chance for land units lost or destroyed in combat to be reanimated as a Skeleton under your control. Unlocks the Skeleton unit.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UA_DESCRIPTION_MODE">
+			<Text>You gain one use of your spellbook upon first obtaining each [ICON_GreatWork_Relic] Relic. The Library has a slot for [ICON_GreatWork_Relic] Relics, which provide +1 [ICON_GreatScientist] Great Scientist points per turn. 10% chance for land units lost or destroyed in combat to be reanimated as a Skeleton under your control. Unlocks the Skeleton unit.</Text>
+		</Row>
+
+		<!--DOM-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_SAILOR_VALKRANA">
+			<Text>
+				Awkward though you may be, Valkrana Miraquinal, the time for you to step out of the shadows is nigh. Your darling wishes to see your motherland triumph by your hand, so the mantle of leadership is yours to assume. With your considerable intellect, arcane repertoire, and a horde of indefatigable skeletons. . . well, it is as you say, "What is done for my darling is done beyond good and evil."
+			</Text>
+		</Row>
+
+		<!--Cities-->
+		<Row Tag="LOC_CITY_NAME_SAILOR_SSSRASHIENSTA">
+			<Text>Sssrashiensta</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAILOR_KHWADAY">
+			<Text>Khwaday</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAILOR_NIPPER_BAY">
+			<Text>Nipper Bay</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAILOR_GUGLIA">
+			<Text>Guglia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAILOR_THE_BATTEN">
+			<Text>The Batten</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAILOR_ATENAI">
+			<Text>Atenai</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAILOR_LACEDAE">
+			<Text>Lacedae</Text>
+		</Row>
+
+		<!--Civilopedia-->
+		<!--Extended Pedia entries can be found at the bottom of the document.-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_TITLE">
+			<Text>Valkrana Miraquinal</Text>
+			<!--Used on leader pedia page.-->
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_SUBTITLE">
+			<Text>Valkrana Miraquinal</Text>
+			<!--Used where?-->
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_QUOTE">
+			<Text>
+				Skeletons are cute because of the way they are.
+			</Text>
+		</Row>
+
+		<!--Spellbook Button-->
+		<Row Tag="LOC_SAILOR_VALKRANA_BUTTON_NIL">
+			<Text>You have no spells available. Find [ICON_GreatWork_Relic] Relics to empower your spellbook.</Text>
+		</Row>
+		<Row Tag="LOC_SAILOR_VALKRANA_BUTTON_NOT_NIL">
+			<Text>Your spellbook is brimming with magic. You can cast spells. Find more [ICON_GreatWork_Relic] Relics to further empower your spellbook.</Text>
+		</Row>
+
+		<!--Spellbook-->
+		<Row Tag="LOC_SAILOR_VALKRANA_POPUP_TITLE">
+			<Text>Valkrana's Spellbook</Text>
+		</Row>
+		<Row Tag="LOC_SAILOR_VALKRANA_POPUP_SUBHEADER">
+			<Text>Choose a spell to cast, or close the book to save it for later.</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_1_NAME">
+			<Text>Scry</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_1_DESCRIPTION">
+			<Text>Permanently reveal a city belonging to target leader. Targets a different city per use, or increases your visibility radius over a city. Targets a random plot if no leaders have been met.</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_2_NAME">
+			<Text>Kinetic Barrier</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_2_DESCRIPTION">
+			<Text>Grant your units a +10 Combat Strength bonus when defending. Lasts 5 turns and stacks duration.</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_3_NAME">
+			<Text>Well of Souls</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_3_DESCRIPTION">
+			<Text>Heal your skeletons for an amount equal to 20 plus twice the number of units you have destroyed since you last used this spell. Current Healing: </Text>
+		</Row>
+		<Row Tag="LOC_SPELL_4_NAME">
+			<Text>Skeleport</Text>
+		</Row>
+		<Row Tag="LOC_SPELL_4_DESCRIPTION">
+			<Text>Spawn 3 hostile skeletons near target leader's city. Targets a random plot if no leaders have been met.</Text>
+		</Row>
+		<!--Spellbook Ability-->
+		<Row Tag="LOC_ABILITY_SAILOR_VALKRANA_SPELL2_NAME">
+			<Text>Kinetic Barrier</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SAILOR_VALKRANA_SPELL2_DESCRIPTION">
+			<Text>+10 [ICON_Strength] Combat Strength when defending.</Text>
+		</Row>
+		<Row Tag="LOC_SAILOR_VALKRANA_BARRIER_PREVIEW_TEXT">
+			<Text>+10 from Kinetic Barrier</Text>
+		</Row>
+		<!--Targets-->
+		<Row Tag="LOC_SAILOR_VALKRANA_TARGETS_SUBHEADER">
+			<Text>Choose a target.</Text>
+		</Row>
+
+		<!--UU-->
+		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UU_NAME">
+			<Text>Skeleton</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UU_DESCRIPTION">
+			<Text>Unique long-lasting melee unit that replaces the warrior. Gains +10 [ICON_Strength] Combat Strength when the Library is first constructed, and +20 [ICON_Strength] Combat Strength when the University and Research Lab are first constructed. Can repair improvements and remove features.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SAILOR_VALKRANA_UU_NAME">
+			<Text>Skeleton</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SAILOR_VALKRANA_UU_DESCRIPTION">
+			<Text>Unique long-lasting melee unit that replaces the warrior. Gains +10 [ICON_Strength] Combat Strength when the Library is first constructed, and +20 [ICON_Strength] Combat Strength when the University and Research Lab are first constructed. Can repair improvements and remove features.</Text>
+		</Row>
+
+		<!--UnitName-->
+		<Row Tag="LOC_UNITNAME_SUFFIX_SAILOR_SKELETONS">
+			<Text>Skeletons</Text>
+		</Row>
+
+		<!--Reanimation Floater-->
+		<Row Tag="LOC_SAILOR_VALKRANA_REANIMATED">
+			<Text>[COLOR:252,73,178,255]Skeleton reanimated![ENDCOLOR]</Text>
+		</Row>
+		
+		<!--Religion-->
+		<Row Tag="LOC_RELIGION_SAILOR_ILYANA">
+			<Text>Cult of Ilyana</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_SAILOR_ILYANA_CHAPTER_HISTORY_PARA_1">
+			<Text>Followers, minions, fans, and admirers of the great, mighty, unrivaled witch-hero, Ilyana Miraquinal.</Text>
+		</Row>
+
+		<!--Diplomacy-->
+		<!--FIRST MEET-->
+		<!--First AI line-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>Hi. ...Hi. I am Valkrana Miraquinal, right hand and biggest fan of the great, mighty, unrivaled hero Ilyana Miraquinal. That is my introduction.</Text>
+		</Row>
+		<!--AI invitation to visit nearby City-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>I am battening the hatches to watch a necromancy storm from my nearest city. You can, too. ...But not with my darling's me.</Text>
+		</Row>
+		<!--AI accepts Human invitation-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>'Kay.</Text>
+		</Row>
+		<!--AI invitation to exchange Capital Information-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>Sssrashiensta is teeming with insectoids, undead, goblins, ogres... If a human wishes it dead, it might be there. Also, there are parfaits.</Text>
+		</Row>
+
+		<!--GREETINGS-->
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>Hi. ...Hi. Hi.</Text>
+		</Row>
+
+		<!--DELEGATION-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>'Kay.</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>Your seedy underlings have no business with my darling.</Text>
+		</Row>
+		<!--AI Requests -->
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>Imagine a rattling procession of cute skeletons. One has a basket of seaweed &#38; lychee cookies. Another has a rare magic item. Wow. That would be a bully for you.</Text>
+		</Row>
+		<!--Human Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>'Kay.</Text>
+		</Row>
+
+		<!--EMBASSY-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>'Kay.</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>Oh. Did my awkwardness give the impression that you are welcome? Sorry. That is false.</Text>
+		</Row>
+		<!--AI Requests -->
+		<Row Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>A few skeletons will idle in your capital. In an official capacity.</Text>
+		</Row>
+		<!--Human Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>'Kay.</Text>
+		</Row>
+
+		<!--OPEN BORDERS-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>'Kay.</Text>
+		</Row>
+		<!--AI rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>Crawl back into your grave. Bye.</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>My skeletons will march through your territory.</Text>
+		</Row>
+
+		<!--DECLARE FRIENDSHIP-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>What? Why? ...'Kay. It does read in "Mortals: What Are They and Why Do They Even Bother Existing?" that you often have the need to maintain your illusion of having friends.</Text>
+		</Row>
+		<!--AI Rejects from human -->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>Bye.</Text>
+		</Row>
+		<!--AI Requests friendship from human-->
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>We are not friends. But our foes need not know this. I will commence with the propaganda.</Text>
+		</Row>
+		<!--Human accepts AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>You too. Bye.</Text>
+		</Row>
+		<!--Human rejects AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>'Kay. You too. Bye.</Text>
+		</Row>
+
+		<!--ALLIANCE-->
+		<!--AI Requests an alliance from human-->
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>It would be in our best interests to conspire. Um, with one another.</Text>
+		</Row>
+		<!--AI warns player for border troops-->
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>Why are you here? Go away. Otherwise, I will find myself in possession of some cute new skeletons.</Text>
+		</Row>
+
+		<!--TRADE-->
+		<!--AI Accepts Deal-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>'Kay.</Text>
+		</Row>
+		<!--AI Rejects Deal-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>No. Bye.</Text>
+		</Row>
+
+		<!--DENOUNCE-->
+		<!--From Human-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>'Kay.</Text>
+		</Row>
+		<!--From AI-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>You are stupid. You will die, and you will leave a stupid corpse. (Denounces You.)</Text>
+		</Row>
+
+		<!--DECLARE WAR-->
+		<!--Human Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>A declaration of war? On a necromancer? You did not think this through, you focking numbskull.</Text>
+		</Row>
+		<!--AI Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>You who would dare come between my darling and her dreams... You will witness the terrible depths of my devotion.</Text>
+		</Row>
+
+		<!--MAKE PEACE-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>'Kay.</Text>
+		</Row>
+		<!--AI refuses human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>Peace? But I have exhausted neither spells nor skeletons. Come get some.</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>Undead can go on forever; our war need not.</Text>
+		</Row>
+
+		<!--DEFEAT-->
+		<!--AI is Defeated-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>I have failed my darling. I am worthless and repulsive, yet my darling, she accepts my darling's me for my darling's me. ...Yet I have failed her.</Text>
+		</Row>
+		<!--Human is Defeated (will see this in hotseat)-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>You have died, and you have left a stupid corpse.</Text>
+		</Row>
+
+
+		<!--LEADER AGENDA-->
+		<Row Tag="LOC_AGENDA_SAILOR_VALKRANA_NAME">
+			<Text>Awkward Infomonger</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_SAILOR_VALKRANA_DESCRIPTION">
+			<Text>Valkrana is awkward, and has a permanent penalty to diplomatic score with other civilizations. Each Relic a civilization discovers will slightly but permanently improve her opinion of that civilization, up to five times. She hates civilizations that have spied on her. Valkrana's main focuses are science and espionage.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAILOR_VALKRANA_AWKWARD">
+			<Text>You're very awkward.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_SAILOR_VALKRANA_REASON_SPY">
+			<Text>(You have spied on Valkrana.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAILOR_VALKRANA_SPY">
+			<Text>Distrusts your use of espionage.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_SAILOR_VALKRANA_REASON_RELIC">
+			<Text>(You have discovered a Relic.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAILOR_VALKRANA_RELIC">
+			<Text>You discovered a relic.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_SAILOR_VALKRANA_REASON_ANY">
+			<Text>(You discovered a relic.)</Text>
+		</Row>
+
+		<!--AI Kudos-->
+		<!--Default-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>Yesterday, I watched from cover as a skeleton uncorked a Bottle of Ill- and Implosive-Repute '22. What arcane wonders. (You found a Relic.)</Text>
+		</Row>
+		<!--These will be semi-randomized and (hopefully) injected to replace the default.-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_1">
+			<Text>Yesterday, I watched from cover as a skeleton uncorked a Bottle of Ill- and Implosive-Repute '22. What arcane wonders. (You found a Relic.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_2">
+			<Text>Arcane grimoires hold such incredible knowledge. Such as page 184 of the Book of Very Darkness, in which... (You found a Relic.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_3">
+			<Text>Another magic item to catalog. I cannot wait to tell my darling. Eheheheh. (You found a Relic.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_4">
+			<Text>Each magic item has properties all its own. It is a thrill to discover them. Also, to activate them. (You found a Relic.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_5">
+			<Text>Wands can store all manner of magicks. Conserve your resources by using a wand. Experience magic by using a wand. Use a wand. (You found a Relic.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_6">
+			<Text>Expending the last charge of a magic item is bittersweet. On both accounts, you are the last to ever use the item. (You found a Relic.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_7">
+			<Text>What is your favorite magic item? You cannot make my darling's me choose. (You found a Relic.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_8">
+			<Text>I never expected the Deck of Many Bones to become sentient. But I do not mind. (You found a Relic.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_9">
+			<Text>Do not overlook magic items that seem mundane. Little, everyday things better my darling's life. The same can be true with magic. (You found a Relic.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_0">
+			<Text>Holy moley, is that a foil limited edition Staff of the Underworld Denizen? (You found a Relic.)</Text>
+		</Row>
+
+		<!--AI Warnings-->
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SAILOR_VALKRANA_ANY">
+			<Text>Continue these pitiful attempts at espionage at your own peril.</Text>
+		</Row>
+
+		<!--Random Agendas. Thanks to Leugi for gathering these.-->
+		<!--Gossip-->
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_SAILOR_VALKRANA_REASON_AGENDA_GOSSIP_POSITIVE">
+			<Text>Intel is the most valuable currency. Your contribution to my treasury has been noted. 'Kay.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_SAILOR_VALKRANA_REASON_AGENDA_GOSSIP_NEGATIVE">
+			<Text>Hi. ...Hi. Your information network is not as secure as you believe.</Text>
+		</Row>
+		<!--Destination Civ-->
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_SAILOR_VALKRANA_REASON_AGENDA_LOW_TOURISM">
+			<Text>The great, mighty, unrivaled Ilyana Miraquinal is the very image of heroism. Admirers the world over travel in the hopes of so much as a glimpse.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_SAILOR_VALKRANA_REASON_AGENDA_HIGH_TOURISM">
+			<Text>It is my duty to promote the great, mighty, unrivaled Ilyana Miraquinal. You will not interfere. 'Kay.</Text>
+		</Row>
+		<!--Great Person Advocate-->
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_SAILOR_VALKRANA_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LAG">
+			<Text>It is only natural for the best and brightest to flock to someone as magnificent as my darling.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_SAILOR_VALKRANA_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LEAD">
+			<Text>Under anyone besides my darling, great people will never realize their true potential. What a waste.</Text>
+		</Row>
+		<!--Money Grubber-->
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_SAILOR_VALKRANA_REASON_AGENDA_MONEY_GRUBBER">
+			<Text>Hi. ...Hi. We have a great deal to accomplish. Therefore, we have a great deal of coin.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_SAILOR_VALKRANA_REASON_AGENDA_MONEY_GRUBBER">
+			<Text>Coin is essential to any meaningful endeavor. Are none of your endeavors meaningful? Bye-bye. You, too.</Text>
+		</Row>
+		<!--Nuke Lover-->
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_SAILOR_VALKRANA_REASON_AGENDA_HIGH_NUKE_LOVE">
+			<Text>Even the most destructive spells should be cast at least once. You understand this.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_SAILOR_VALKRANA_REASON_AGENDA_LOW_NUKE_LOVE">
+			<Text>Even the most destructive spells should be cast at least once. You should understand this.</Text>
+		</Row>
+		<!--Standing Army-->
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_SAILOR_VALKRANA_REASON_AGENDA_HIGH_STANDING_ARMY">
+			<Text>Hi. Jumping skeletons, moss-covered skeletons, skeletons from a geyser, skeletons with machine guns. The more skeletons the better. They are both cute and versatile.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_SAILOR_VALKRANA_REASON_AGENDA_LOW_STANDING_ARMY">
+			<Text>Do not think you can leave all the fighting to my skeletons just because they do not tire. ...'Kay.</Text>
+		</Row>
+		<!--Secret Society-->
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_SAILOR_VALKRANA_REASON_STANDARD_DIPLOMATIC_SAME_SECRET_SOCIETY">
+			<Text>Hi. ...Hi. (You belong to the same secret society.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_SAILOR_VALKRANA_REASON_STANDARD_DIPLOMATIC_DIFFERENT_SECRET_SOCIETY">
+			<Text>... (You belong to different secret societies.)</Text>
+		</Row>
+
+		<!--LONG PEDIAS-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_1">
+			<Text>
+				Character website: https://valkrana.moe[NEWLINE][NEWLINE]INTRODUCTION[NEWLINE]The feats of the Great and Mighty Ilyana Miraquinal are mandatory curriculum at any bard academy. But Valkrana Miraquinal, her wife and right hand, manipulates the limelight to fall on only Ilyana. An interview with Valkrana would surely earn you the prestige of an entire paragraph in the Centennial Manual di Bards. At least! Such was your eagerness that you arrived at this boondocks tavern a full week in advance. 'If nothing else, these candy corn cookies are the best you've ever had,' you think as you bite into one. Naturally, the two show up when your mouth is full.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_2">
+			<Text>
+				A poison-purple sphere appears some ten paces away. Even at a distance, it's acrid enough to cause your eyes to water. The sphere shrinks almost immediately, leaving four figures in its wake. Ilyana carries herself with refined elven confidence, a real high-class hero; her presence commands your attention. Meanwhile, Valkrana has her face pressed into Ilyana's side, clinging to her with three skeletal arms; her presence is at the same time childlike and monstrous. They're flanked by a pair of burly dark-aura figures in robes. Valkrana is beaming in a way you've only ever seen in paladins. "Eheheheh. What is the surprise, My Darling? Is it, is it a date in the boonies? Holey moley, will it be a bully for us if it is a date in the boonies."
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_3">
+			<Text>
+				The Great and Mighty Ilyana Miraquinal looks down her nose at you in a way that manages to make you feel honored to be beneath her, then at Valkrana. Ilyana's telepathy is well-documented, so the span of silence tracks—not that you'd dare clear your throat regardless. Valkrana's mood plummets sharply. Where Ilyana's haughtiness made you feel honored, the contempt Valkrana turns on you makes you feel like an insect to be exterminated. The dark-aura figures take a step forward. You nearly choke on the cookie. "I warned you fucks," she growls. "You—" Valkrana blinks at Ilyana. "But, My Darling." She levels a skeletal finger at you. "This—"
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_4">
+			<Text>
+				"It's as I said," Ilyana finally speaks aloud. "This bard has written fair accounts of even the most villainous historical figures. You're already a historical figure by virtue of standing by my side. There's no avoiding that, is there? You wish to fulfill my dreams, do you not?"[NEWLINE][NEWLINE]"More than anything, My Darling!"[NEWLINE][NEWLINE]"You have many times over, and the honor will continue to be yours. But the time has come to accept your rightful place in them. I will not have it any other way. I will not. Hmph."
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_5">
+			<Text>
+				Valkrana stares. A strand of potent acid glistens between teeth made for obliterating bone. She obeys with a simple, "Yes, My Darling." Ilyana makes no attempt to hide her satisfaction. With that, Valkrana removes her wide-brimmed witch hat and waits for Ilyana to take a seat before sitting in her lap. The dark-aura figures stoop to serve two steaming mugs of coffee and a saucer piled high with cookies.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_6">
+			<Text>
+				"Hi," Valkrana says. She interrupts your reply. "Hi. Hi." She gestures in what was either an odd wave or her stretching her arm. Her three bony hands fumble for the same cookie. Valkrana exudes awkwardness. She stares at you, unblinking and aloof. Meanwhile, Ilyana drinks her coffee without a word.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_7">
+			<Text>
+				COSMIC COIN FLIP[NEWLINE]Valkrana was born into Quellar vil Galath Faeri Naerel, or the House of the Great Flame Forest. It was at the time a well-to-do elven household of ancient origin ruled by her father, the accomplished mage and diplomat, Eldrin. The circumstances of Valkrana's birth would set in motion a swift decline for her family.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_8">
+			<Text>
+				Her father had always loved dragons. It wasn't until much later in life that she learned he did not just love them, he made love to them. This proclivity eventually led him to the bed of a world dragon by the name of Ssstzrazolik. That adulterous coupling would soon ruin Eldrin, because it gave birth to Valkrana.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_9">
+			<Text>
+				On Valkrana's homeworld, these legendary world dragons were veritable demigods, intrinsically tied to the well-being of the planet. And on Valkrana's homeworld, interspecies mating resulted in one of the two species involved. In that cosmic coin flip, Valkrana was born an elf. Because her soul burned white-hot with the lineage of her birth mother, her inferior elven vessel could no more contain it than whey in cheesecloth. She was doomed to a short life in a body consumed by the strain of her soul: minutes-long sensations of being burned alive, a weakened immune system, and sleep deprivation all hounded her.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_10">
+			<Text>
+				Even in her utmost respect for her Papa, Valkrana admits he was not a good person. Whatever mob justice he eventually suffered was likely well-earned. But never let it be said that he did not love her. Especially not in front of Valkrana. Within a few years of her birth, he had squandered everything in funding and searching for a cure. Their reputation was ruined. They lost it all. Meals were stone soup in slum water. The family abhorred them. Eldrin's wife, Valkrana's adoptive mother, died inexplicably soon after. While they couldn't afford a healer to examine her, it wouldn't be far-fetched to say her father's infidelity and the sudden ruin it invited played a part in her demise.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_11">
+			<Text>
+				Outcast by her relatives for her role in their misfortune, outcast by others for fear of her illness, Valkrana's youth was all so much solitude. Even the urchins only dared to throw rocks from afar. Her father did his best, but he was not an elf prone to displays of affection, and certainly not in top form besides. This went on until a chance meeting in the cramped alleys between hovels. Throat raw and soaked in sweat from a recent episode, Valkrana had stumbled in and tripped over a corpse. This was by no means her first corpse, but it was the first damaged enough by wild animals to lay bare much of its skeleton. Valkrana had never seen anything like it, had never seen anything so utterly, inimitably cute. Her big, stupid grin stretched from ear to ear. At the time, she was too ragged to really investigate further. So she curled up to stare at her new obsession until she fell asleep.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_12">
+			<Text>
+				From that day forward, Valkrana elevated her outcast status from 'a deathly-ill child' to 'a deathly-ill child who also picks apart corpses'. She began dissecting the dead wherever she could find them, which was never all that far in the slums, to get at the skeleton inside.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_13">
+			<Text>
+				NOT ALL SOULS[NEWLINE]"Skeletons were a welcome but fleeting happiness. Papa looked less and less himself. He would never say as much, but it was no feat for someone of my intellect to piece together the reason: My Darling's me. Papa's worthless fucking daughter deserved to die. So I stopped fighting. And I did, die." Valkrana peers inward. Her arms rattle gently as she retracts them into her cloak. "Sort of. It is said that all souls are created equal, but that some are more equal than others. The soul of a world dragon simply is not engineered to pass on; conversely, the soul of an elf is meant to. Neither law would relent in its pull. My spirit spun in place like a runaway top, breaking up under the forces. I will never forget that timeless agony."
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_14">
+			<Text>
+				This dreadful preview of what death had in store reignited her will to live. Valkrana pulled through. According to her father, she had been dead less than a minute. To this day, it shapes her. The experience stirred in Valkrana a deep-seated obsession with the afterlife. Where some feared it, wielded it, or fled it, she needed to master it. At that time she had found both her fascination with skeletons and a spark of determination, but the direction of necromancy was years away.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_15">
+			<Text>
+				In the last stages of her illness, she was often delirious, and wished to see with her own eyes the creatures her father would describe to her with such passion and in such vivid tales. So it happened that, a few years later, she decided in her delirium to seek out the lair of a dragon. Ironically, the condition that had plagued her since birth wouldn't be her downfall. Instead, Valkrana would perish in a backwater lair to the claw of some petty swamp dragon, and earn her mutilation.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_16">
+			<Text>
+				REANIMATION[NEWLINE]Valkrana's skeletal fingers clink against her porcelain teacup. She watches them as they do. "Would that all of My Darling's me were like this. I might at least be cute on the outside." She removes her hat and eye patch to lay bare her gnarly wounds. She flashes a deadpan shark-toothed grin. "I believe my old master meant well in trying to preserve what was left of my original body, but I am a disgusting perversion of the skeleton."
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_17">
+			<Text>
+				Prior to her death, a necromancer had approached her father with a solution, but had been summarily rejected at the time. With nowhere else to turn, options Eldrin once refused to entertain were much more palatable. This necromancer was an expert on souls who grasped the underlying issue to Valkrana's condition. He offered his services free of charge. In truth, the man was thrilled at the idea of working with such a soul, and feared the missed opportunity. What's more, he'd heard of Valkrana's broad-daylight dissections.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_18">
+			<Text>
+				Valkrana's body had been recovered, but it wasn't intact. Some limbs were missing; others were beyond repair. So he performed bone grafts, gave Valkrana the means to break down and assimilate bone, modified her disposition, and ultimately made an undead scavenger out of her. The first graftling. He thought this would please Valkrana, but she would come to see herself as nothing more than a perversion of the skeleton. Once he had finished, the necromancer kept his word. An undead is far more resilient than a mortal vessel, so he used her new body as a chassis, and reunited her soul with her body. Hardly a month after her death, she had been successfully reanimated.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_19">
+			<Text>
+				Valkrana was made into the monster everyone believed her to be. The following years had her locked in a trunk—starving, raving, and alone but for her father's voice. He would sing old soulful songs to her, and on special days, bring her a cookie. These were the only pockets of happiness within her isolation and the unabating hunger of undeath. She craved bones as much as the living crave their next breath. It wasn't until Valkrana had been locked away for nearly two years that she began to seize for herself a measure of control over the hunger. Her newfound vitality had reinvigorated her dear father as well, so it was at this time that he began to teach her to ply his trade. By a slit of light, in a cramped trunk, she trained for four years to become a diplomat and mage. When at last she was released, it became clear that a career in diplomacy was off the table. However, she showed promise elsewhere.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_20">
+			<Text>
+				NECROMANCY 101[NEWLINE]Valkrana turns a frown on her cookie. She sighs. "Maybe I was always going to be this way. Maybe I was a blank slate. Maybe it is a case of nature against nurture. It does not matter. Whatever the cause, I emerged from that trunk... me. Unsuited to diplomacy. Unbearably awkward, with an extremely short fuse, and utterly dependent. I often wish I were not aware of these fucking disgusting traits. I do not just see them in myself. I see when others see them." Valkrana glances up at you briefly; you catch her meaning. She leans back, and cranes to bury her face in Ilyana's neck. "Your vertebrae smell as savory as ever, My Darling." Ilyana smiles. "I know. Of course they do. Thank you."
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_21">
+			<Text>
+				Valkrana was clever and tenacious. Magic had saved her from certain doom. Magic made her feel as if she were no longer powerless. She was spellbound. By the time she emerged from isolation, Valkrana was a better wizard than her father. A prodigy. So he pulled a few strings to secure for her a more proficient wizard under whom to apprentice. Her new apprenticeship came with shelter and academy classes, but it didn't last long. Clerics hounded and abused her. Her peers reviled and bullied her. She regularly flew off the handle at both parties. Her awkwardness led to miscommunication. She cried to see her father. She drooled buckets. She studied the dark arts and necromancy. But most of all, she did not respect her master. For all these reasons, her apprenticeship was ultimately dissolved.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_22">
+			<Text>
+				Afterwards, she studied diligently under the same necromancer who had reanimated her. Hardly a charmer himself, he was more tolerant of her idiosyncrasies. And she possessed an inkling of respect for him. During this time, her father was busy climbing his way back up the social strata. This is where Valkrana got her first taste of the criminal underworld. Father-daughter days often involved practical applications of his Machiaelfian lessons, including shady uses of magic, information trafficking, and well, Valkrana was a walking corpse disposal. Before long, they had carved for themselves a path out of the slums. Despite their sphere of operation, Valkrana never meant to hurt anyone. No matter how much she hungered for their bones, it had never even crossed her mind. She wanted to be a good person. It wasn't until years later, when an overzealous cleric and a superfluity of his peers brought her to the brink of death, that she lashed out. Those would become her first kills.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_23">
+			<Text>
+				Valkrana never grew out of her fascination with skeletons or mastery over death. Only got better at hiding it. She loved her father, and was supremely grateful for the lengths to which he had gone for her, so when he firmly told her to find another interest, she obliged. Valkrana understood that her necromancy put his hard work in jeopardy. Eldrin had always told her stories of dragons, so for an impressionable young elf who cared deeply for her father, Valkrana had no qualms with pursuing the field. Even if one had killed her.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_24">
+			<Text>
+				IN HER ELEMENT[NEWLINE]Valkrana recites the arcane utterances to cast one of the simplest of spells. The image of a tiny skeleton dances on the table. She emits a weird chuckle. "Eheheheh. Cute. I may have been born a prodigy, but magic is more than my specialty. I am more than a hobbyist or enthusiast. It is my key. It is how I unlock a world with which my interactions have always fallen short."
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_25">
+			<Text>
+				Valkrana had no pangs of lamentation for her lost childhood. She never felt the desire to run amok in her new life. Instead, she tucked herself away in a dank little room in the cellar of the same tower from which she had been expelled. For decades, Valkrana buried herself in her studies, leaving only when her father, on whom she'd placed a tracking spell, was the slightest bit late for a visit. But it wasn't only a fear of death that fuelled her zeal; far from it. The joy she found in magic was indefatigable. Common or rare, everyday or catastrophic: Valkrana wanted to see, touch, learn, cast it all.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_26">
+			<Text>
+				She had her history to overcome, but Valkrana joined an uncommon intellect with the sweat of her brow and the tirelessness of undeath to great effect. She earned respect in the highest arcane circles. In public, she was a scholar. In private, she honed her necromancy. Her passion inspired her to go as far as creating an entirely new subgroup of necromancy spells. From Valkrana's Enduring Link to Valkrana's Rattling Geyser, she left a lasting mark on the world of wizardry. This would all fall apart while doing field research for her archmage dissertation on 'The Parental Habits of Dragons and their Ilk: An Ancient Pattern of Negligence'.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_27">
+			<Text>
+				A MOTHER'S CURSE[NEWLINE]Valkrana is rarely expressive when it doesn't concern Ilyana, magic, or skeletons, but her impassiveness feels out of place among her words. "All that time, I never again had the chance to visit my dear Papa. We exchanged a few letters, when my travels allowed it. Months-late, at best. I will never know whether he was proud of his worthless daughter."
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_28">
+			<Text>
+				Valkrana had only meant to observe the nest from above, but the overlook wasn't as sturdy as she thought. It dislodged and fell to the nest, striking and killing one of the whelps. Valkrana asserts that she was suitably saddened by this, but that dragon bones were hard to come by. It made perfect sense to her to scavenge the corpse. Unfortunately, its mother returned during the deed, and didn't take kindly. With a single swipe of its claw, the biggest dragon she had ever seen dispelled her magical defences and brought her to the brink of death. Valkrana called it a 'sucker punch'.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_29">
+			<Text>
+				Yet, the dragon didn't kill her. Neither did it take mercy on her. It cursed Valkrana to follow the whelp's spirit wherever it wished to go, bound to show it the world she had denied it. That accident forced her to abandon everything she had worked so hard to achieve. Some years into the curse, she would discover the dragon's name: Ssstzrazolik, her birth mother. Valkrana's vengeance is at times a slow beast, yes, but it is as tireless as she.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_30">
+			<Text>
+				Valkrana was forced to wander at the whim of a child. She became wanted for breaking and entering. A common criminal. Nations and clerics alike hounded her. Still, she did her utmost to stick to her mantra. To be a good person. Even if she never really knew what that meant. The worst part for her was the separation from her father. Until she could unravel the curse, she had no means to see the man she so loved and idolized.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_31">
+			<Text>
+				THE VON TRAPP PARTY[NEWLINE]"As far back as I could remember, there was this unused area, a pit in my mind and soul. Existence itself had washed out colors. But I didn't even realize it. Until," Valkrana's impassiveness breaks into a fanatic's wild grin. She tucks her hands against her chest. "Until My Darling kissed My Darling's me. More than holding hands, more than a hug, a kiss is the most precious, most meaningful display of love. My first kiss. Eheheheh."
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_32">
+			<Text>
+				Valkrana's curse was lifted by the goddess of paradox, Cassandra Sledgehammer, who handed her the whereabouts of those responsible for her father's demise: the Von Trapps, and their leader, Zandro. Valkrana had every right to eradicate them; their misdeeds were many. She had fully intended to. But when the time came, she still believed she could be a good person. If she were to kill Zandro for his mistake, how would she have been any different from her mother? So she stayed his sentence to join him. Valkrana would let him prove his innocence.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_33">
+			<Text>
+				She saw a kindred spirit in Vexia, the party thief. An outcast the world could not comprehend, not that it had cared to try. Valkrana's awkwardness was no hindrance. They became easy friends. Then, neither really knowing the enormity of the moment, Vexia and Valkrana found themselves in an accidental kiss. For Vexia, it was a mistake. For Valkrana, it was life-changing. Her obsessive tendencies kicked into overdrive. An unused pit in her mind that had been purpose-dug for a lifelong obsession suddenly flooded with Vexia. Memories in which she'd never been now housed unending love for her. Motivations all fell to the wayside before her. Vexia became Valkrana's prime directive. Even though Vexia's rejection smarted dearly, Valkrana's dedication was absolute. But an unrequited love meant that Valkrana's obsession was still incomplete. Then the end of the world happened.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_34">
+			<Text>
+				INTERVENING TIME AND THE OUTFIT[NEWLINE]Valkrana toiled first on her homeworld, then for nearly three decades on some new ark-type world to which she and others were spirited away. She knew it'd be exceedingly difficult to carve for herself a place among the lawful in this new world, especially in secret. But the underworld, the underworld was pliable. With the help of her father's lessons, with an understanding of what drives urchins, and with a figure less likely to raise their hackles, she became their big sister. A kingpin with urchins as her domain. No one wants to acknowledge them, because that would mean feeding them, or admitting that a problem exists at all. This made them ideal for gathering intel. She expanded the operation to cover adjacent tasks, but intel was always their specialty, and her aim. Because every eavesdropped conversation, every secret shared in confidence brought her one step closer to the whereabouts of her darling.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_35">
+			<Text>
+				At the same time, she encouraged a formidable member of the Von Trapps by the name of Mira to spearhead a coalition of others from her homeworld. This coalition's primary focus would be to find and secure the locations of interdimensional phenomena like those that had stranded them there. After this organization found its footing, Valkrana left everyday management to Mira and her crew. While her simulacrum handled underworld affairs, Valkrana would sit in a dark room for days on end, monitoring and learning about their new home through the thousands of skeletons under her control.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_36">
+			<Text>
+				THE MIRAQUINAL PARTY[NEWLINE]"My Darling." Valkrana swivels to face Ilyana, who acknowledges her with the attention for which she yearns, and for which the masses would divest their life savings. "My Darling shared with My Darling's me her broom, her travels, her trust, her life, herself. My Darling showed My Darling's me how to be happy. She made My Darling’s me, My Darling’s me. And now, now I belong to her. Absolutely. As the years pass, as the world changes, as people enter and exit her life, I will be her constant. Always and forever. My Darling's me. Whatever she considers worthy, whatever she needs, if I am not that, I will strive to become it. If I cannot, I will help her to find it."
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_37">
+			<Text>
+				Little by Little, Valkrana gave herself over to the hunger of undeath. She did not become the person she intended to be; she became the person she needed to be. Then, through the combined efforts of the Outfit and her underworld connections, she finally found Vexia's reincarnation: Ilyana Miraquinal. But Valkrana had lost a bit of herself over the years. Her too-forward advances and extreme clinginess made for an exceptionally poor first impression. Ilyana feared her. However, Valkrana's power and position in the Outfit meant that Ilyana had no choice but to tolerate her.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_38">
+			<Text>
+				This gave the two time to settle into their relationship. Valkrana fought to hold back her clinginess while Ilyana learned to look beyond her issues. They adventured as party members, and eventually in these travails they each found their stride. Ilyana discovered in Valkrana someone who, despite knowing her shortcomings, put her on the pedestal she deserved. Valkrana's obsession meant someone she could trust in all things, and her undying drive to elevate Ilyana meant a partner in her dreams. When she was under the weather, Valkrana tended to her; when she needed a shoulder to cry on, Valkrana offered hers. She even came up with awful puns to brighten her day. Before she knew it, Ilyana had warmed up to Valkrana's point of view.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_39">
+			<Text>
+				For her part, Valkrana embraced the truth that while the two were the same soul, Ilyana was not Vexia, and that was a good thing. Ilyana was an elf who shared her love for learning and magic, challenged her intellect, knew the trials of living in the slums. Ilyana didn't fight her obsession; instead, she gave Valkrana a chance to help her see it for what it was. Ilyana showed her a kindness she had never known. Ilyana accepted her undeath, her nasty personality, her rocky past—all of it. And when at last Ilyana sealed this acceptance with a kiss, Valkrana permanently imprinted. She became 'My Darling's me'. It made Valkrana the best version of herself. They formed a formidable team.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_40">
+			<Text>
+				Unfortunately, Valkrana's fear of losing Ilyana a second time ended in exactly that. She convinced Ilyana to perform a ritual that would bind their fates such that they would never again be apart. The ritual backfired. It shattered Ilyana's soul, and the shrapnel buffeted Valkrana's soul to become trapped there. It took Valkrana some time to pull herself together; between the ritual and losing her darling, she found herself in a bad way. But once she did, she set out on a century-long journey to find the means to restore the hero the world knows and loves. Without her, she was no one.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_41">
+			<Text>
+				Nearly a century later, Valkrana had exhausted every conceivable solution with no progress to show for it. So she did what she had to do. She traversed the vast network of underground tunnels home to grub-riding elves, dangers untold, and above all else, loneliness. Eventually, tirelessly, Valkrana's descent found its goal. She stood before Urt, God of All That is Deep. There, she forged a pact that would grant her the means to continue her quest in other realities.
+			</Text>
+		</Row>
+		<!-- Witty Otters -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_42">
+			<Text>
+				THE WITTY OTTERS PARTY[NEWLINE]The act of forcing her way into another reality was never without consequences. Otherworldly abilities had to be reconciled, and at times, damaged in conversion. Upon reaching Oerth, Valkrana found her expertise in the world's arcanum necromantic altogether wanting. Fortunately, she retained her natural talent in and enthusiasm for the craft. Better still, an undying drive to restore her darling's soul. So she set forth once more on her quest.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_43">
+			<Text>
+				One such consequence of entering the reality of Oerth was an omega brand that bound her journey with that of other would-be adventurers. Though she wasn't fond of the enchantment, she understood the value of aligning herself with an adventuring group. In her search for the means to revive Ilyana, they could prove to be valuable assets and possible springboards into actionable intel and relationships. If nothing else, they'd help her get a lay of the land.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_44">
+			<Text>
+				Awkward though she may be, the strength of Valkrana's resolve was enough to forge a party with her at the helm. She trained yet another network of urchins. She entered spheres of power and influence. She performed heroics. As with every other reality, Valkrana gave it her all. Even damaged as she was from both Ilyana's death and the latest leap across realities, she would settle for nothing less. The Witty Otters quickly gained traction in their corner of the world. Although, something loomed large in the back of her mind. She could not recall the details of her bargain with Urt, only that she had bargained.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_45">
+			<Text>
+				Just as the Witty Otters had finished exterminating the sahuagin menace, an entity known only as "the Creator" entered the arena to steal Ilyana's soul, which left Valkrana in a bad way. The desperate chase that ensued was frought with perils, and eventually ended with Valkrana confronting the Creator in a corrupted grove. Finding that her magic had no effect, and unwilling to risk Ilyana's soul any further, Valkrana could only watch as a dark ritual fashioned for Ilyana a new body into which her repaired soul was installed. But not without a cost; at the final moment, so too did the Creator's soul enter.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_46">
+			<Text>
+				Thus, Ilyana became a vessel for this entity. What that meant was yet to be discovered. For Valkrana, whose century-long mission had finally bore results, her joy was inviolate. Ilyana had returned. Color diffused a heretofore muted world. However, Signs of possession would soon rear their head. Ilyana's latent psychic powers went into overdrive. Valkrana recognized her temper and harshness as qualities foreign to the elf. Most telling, she took no issue with cannibalism.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_47">
+			<Text>
+				Divine consultation became betrayal when, after braving the Dreadwood, their expedition ended at a brass dragon who revealed its plan to extinguish both souls by consuming Ilyana. That left one less brass dragon in the world. Soon after, Valkrana and Ilyana were invited into an extradimensional manor in which a blood ritual was underway. Druid, vampires, devils, and others whose beliefs amounted to some interpretation of 'might is right' had come together to transplant the Creator into a body fully its own. They treated Ilyana kindly, the transplant was successful, and afterward, the Creator would continue to show its gratitude as time went by.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_48">
+			<Text>
+				At last, Valkrana can once again enjoy cruising in the backseat of Ilyana's flying broom. Marketing, logistics, cooking, maiding, intel, scheduling, dirty deeds—Valkrana works tirelessly to support Ilyana in making her name one synonymous with heroism. Meanwhile, her darling can focus on adventuring, and fully enjoy her role as the great, mighty, unrivaled hero Ilyana Miraquinal. What is best in life? To aid your darling, see her succeed before you, and hear the celebrations of her fans.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_49">
+			<Text>
+				AND BEYOND[NEWLINE]The final hour is spent gushing over her darling. Relating her virtues, recounting her feats, and recalling with exactness the details of their relationship. Take day 10,297 of the Era of Rediscovery, for example, whereupon her darling administered a knucklebone, ate cookie dough cookies, visited for the first time with Valkrana a fractured continent, received and giggled at a letter on said continent, enjoyed a scoop of mocha ice cream, cast a spell on Valkrana, successfully and single-handedly explored a frozen ruin in the bowels of the continent, dedicated precious hours to teaching Valkrana a spell, and most importantly, initiated a hug for the very first time. Valkrana rambles on with the honest passion of a stamp collector who had finally been invited to share their collection. Never mind that she hadn't been invited.
+			</Text>
+		</Row>
+		
+		<!-- Custom Nomina Titles -->
+		<Row Tag="LOC_LEADER_FEMALE_GOVERNMENT_CHIEFDOM_LARGE_LEADER_SAILOR_VALKRANA">
+			<Text>High Necromancer {1_Name}</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_FEMALE_GOVERNMENT_CHIEFDOM_SMALL_LEADER_SAILOR_VALKRANA">
+			<Text>Necromancer {1_Name}</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_FEMALE_GOVERNMENT_AUTOCRACY_LEADER_SAILOR_VALKRANA">
+			<Text>Archnecromancer {1_Name}</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_FEMALE_GOVERNMENT_CLASSICAL_REPUBLIC_LEADER_SAILOR_VALKRANA">
+			<Text>Archmage {1_Name}</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_FEMALE_GOVERNMENT_OLIGARCHY_LEADER_SAILOR_VALKRANA">
+			<Text>Arcane Councillor {1_Name}</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_FEMALE_GOVERNMENT_MERCHANT_REPUBLIC_TINY_LEADER_SAILOR_VALKRANA">
+			<Text>Valkrana's Arcana</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_FEMALE_GOVERNMENT_MERCHANT_REPUBLIC_SMALL_SEA_LEADER_SAILOR_VALKRANA">
+			<Text>{1_Name}, Captain of the HMS Parfait</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_FEMALE_GOVERNMENT_MERCHANT_REPUBLIC_MEDIUM_SEA_LEADER_SAILOR_VALKRANA">
+			<Text>{1_Name}, Captain of the HMS Parfait Flagship </Text>
+		</Row>
+		<Row Tag="LOC_LEADER_FEMALE_GOVERNMENT_MERCHANT_REPUBLIC_LARGE_SEA_LEADER_SAILOR_VALKRANA">
+			<Text>{1_Name}, Admiral of the Fleet of Ilyana</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_FEMALE_GOVERNMENT_MERCHANT_REPUBLIC_SMALL_LAND_LEADER_SAILOR_VALKRANA">
+			<Text>Valkrana's Arcana</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_FEMALE_GOVERNMENT_MERCHANT_REPUBLIC_MEDIUM_LAND_LEADER_SAILOR_VALKRANA">
+			<Text>Valkrana's Skeleton Emporium</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_FEMALE_GOVERNMENT_MERCHANT_REPUBLIC_LARGE_LAND_LEADER_SAILOR_VALKRANA">
+			<Text>High Necromancer of Coinage {1_Name}</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_FEMALE_GOVERNMENT_MONARCHY_TINY_LEADER_SAILOR_VALKRANA">
+			<Text>Demesne Arcanist {1_Name}</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_FEMALE_GOVERNMENT_MONARCHY_SMALL_LEADER_SAILOR_VALKRANA">
+			<Text>Royal Arcanist {1_Name}</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_FEMALE_GOVERNMENT_MONARCHY_MEDIUM_LEADER_SAILOR_VALKRANA">
+			<Text>Arcanist-Queen {1_Name}</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_FEMALE_GOVERNMENT_MONARCHY_LARGE_LEADER_SAILOR_VALKRANA">
+			<Text>Arcanist-Queen {1_Name}</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_FEMALE_GOVERNMENT_COMMUNISM_LEADER_SAILOR_VALKRANA">
+			<Text>First Necromancer {1_Name}</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_FEMALE_GOVERNMENT_DEMOCRACY_LEADER_SAILOR_VALKRANA">
+			<Text>Presidential Arcanist {1_Name}</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_FEMALE_GOVERNMENT_FASCISM_LEADER_SAILOR_VALKRANA">
+			<Text>Overlord {1_Name}</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_FEMALE_GOVERNMENT_CORPORATE_LIBERTARIANISM_LEADER_SAILOR_VALKRANA">
+			<Text>Arcane Administrator {1_Name}</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_FEMALE_GOVERNMENT_DIGITAL_DEMOCRACY_LEADER_SAILOR_VALKRANA">
+			<Text>@FriendsinSpades</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_FEMALE_GOVERNMENT_SYNTHETIC_TECHNOCRACY_LEADER_SAILOR_VALKRANA">
+			<Text>Magitechnocrat {1_Name}</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_FEMALE_GOVERNMENT_EMPIRE_LEADER_SAILOR_VALKRANA">
+			<Text>Archnecromancer {1_Name}</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_FEMALE_GOVERNMENT_THEOCRACY_NO_RELIGION_LEADER_SAILOR_VALKRANA">
+			<Text>Arcane Theocrat {1_Name}</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_FEMALE_GOVERNMENT_THEOCRACY_LEADER_SAILOR_VALKRANA">
+			<Text>High Arcanist {1_Name}</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_FEMALE_GOVERNMENT_THEOCRACY_RELIGION_SAILOR_ILYANA_LEADER_SAILOR_VALKRANA">
+			<Text>{1_Name}, Ilyana's Chosen</Text>
+		</Row>
+	</BaseGameText>
+</GameData>
