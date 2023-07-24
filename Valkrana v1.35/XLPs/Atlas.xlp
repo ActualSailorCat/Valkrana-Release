@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ICON_SAILOR_VALKRANA_COLOR_256"/>
+			<m_ObjectName text="ICON_SAILOR_VALKRANA_COLOR_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SAILOR_VALKRANA_COLOR_45"/>
+			<m_ObjectName text="ICON_SAILOR_VALKRANA_COLOR_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SAILOR_VALKRANA_UU_22"/>
+			<m_ObjectName text="ICON_SAILOR_VALKRANA_UU_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SAILOR_VALKRANA_UU_256"/>
+			<m_ObjectName text="ICON_SAILOR_VALKRANA_UU_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SAILOR_VALKRANA_UU_32"/>
+			<m_ObjectName text="ICON_SAILOR_VALKRANA_UU_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SAILOR_VALKRANA_UU_38"/>
+			<m_ObjectName text="ICON_SAILOR_VALKRANA_UU_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SAILOR_VALKRANA_UU_50"/>
+			<m_ObjectName text="ICON_SAILOR_VALKRANA_UU_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SAILOR_VALKRANA_UU_80"/>
+			<m_ObjectName text="ICON_SAILOR_VALKRANA_UU_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SAILOR_VALKRANA_UU_PORTRAIT_200"/>
+			<m_ObjectName text="ICON_UNIT_SAILOR_VALKRANA_UU_PORTRAIT_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SAILOR_VALKRANA_UU_PORTRAIT_256"/>
+			<m_ObjectName text="ICON_UNIT_SAILOR_VALKRANA_UU_PORTRAIT_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SAILOR_VALKRANA_UU_PORTRAIT_38"/>
+			<m_ObjectName text="ICON_UNIT_SAILOR_VALKRANA_UU_PORTRAIT_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SAILOR_VALKRANA_UU_PORTRAIT_50"/>
+			<m_ObjectName text="ICON_UNIT_SAILOR_VALKRANA_UU_PORTRAIT_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SAILOR_VALKRANA_UU_PORTRAIT_70"/>
+			<m_ObjectName text="ICON_UNIT_SAILOR_VALKRANA_UU_PORTRAIT_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SAILOR_VALKRANA_UU_PORTRAIT_95"/>
+			<m_ObjectName text="ICON_UNIT_SAILOR_VALKRANA_UU_PORTRAIT_95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_UniqueUnit_Sailor_Valkrana_UU"/>
+			<m_ObjectName text="Moment_UniqueUnit_Sailor_Valkrana_UU"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SpellbookButton_72"/>
+			<m_ObjectName text="SpellbookButton_72"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SAILOR_COI_100"/>
+			<m_ObjectName text="ICON_SAILOR_COI_100"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SAILOR_COI_16"/>
+			<m_ObjectName text="ICON_SAILOR_COI_16"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SAILOR_COI_22"/>
+			<m_ObjectName text="ICON_SAILOR_COI_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SAILOR_COI_270"/>
+			<m_ObjectName text="ICON_SAILOR_COI_270"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SAILOR_COI_32"/>
+			<m_ObjectName text="ICON_SAILOR_COI_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SAILOR_COI_50"/>
+			<m_ObjectName text="ICON_SAILOR_COI_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PM_FoundedReligion_Ilyana"/>
+			<m_ObjectName text="PM_FoundedReligion_Ilyana"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_SAILOR_VALKRANA_256"/>
+			<m_ObjectName text="ICON_LEADER_SAILOR_VALKRANA_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_SAILOR_VALKRANA_45"/>
+			<m_ObjectName text="ICON_LEADER_SAILOR_VALKRANA_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_SAILOR_VALKRANA_50"/>
+			<m_ObjectName text="ICON_LEADER_SAILOR_VALKRANA_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_SAILOR_VALKRANA_55"/>
+			<m_ObjectName text="ICON_LEADER_SAILOR_VALKRANA_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_SAILOR_VALKRANA_64"/>
+			<m_ObjectName text="ICON_LEADER_SAILOR_VALKRANA_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_SAILOR_VALKRANA_80"/>
+			<m_ObjectName text="ICON_LEADER_SAILOR_VALKRANA_80"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+
