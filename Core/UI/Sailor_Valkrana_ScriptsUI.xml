@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context Name="Sailor_Valkrana_ScriptsUI">
+	<Container ID="OpenButtonContainer" Anchor="R,B" Hidden="0">
+			<Button ID="OpenButton" Anchor="R,B"	Size="72,72"			Offset="160,210"		Texture="SpellbookButton_72"	NoStateChange="1" ToolTip=""  Hidden="0">
+				<AlphaAnim		ID="OpenButtonAnim" Speed="4" AlphaBegin="0" AlphaEnd="1" Cycle="Once" Function="Root" Hidden="1" />
+				<Label ID="OpenButtonText" Anchor="C,C" Style="FontFlair26" FontStyle="stroke" Offset="0,0"/>
+			</Button>
+	</Container>
+	<!-- ======================= -->
+	<!-- ======================= -->
+	<!-- Spellbook				 -->
+	<!-- ======================= -->
+	<!-- ======================= -->
+	<!--<Container Style="FullScreenVignetteConsumer" />-->
+	<Container ID="Spellbook" Anchor="C,C" Size="702,748" Hidden="1">
+		<Image ID="PopupBackground" Anchor="C,C" Size="parent-10,parent-10" Texture="Ages_ParchmentNormal" StretchMode="Tile"/>
+		<Grid ID="PopupFrame" Anchor="C,C" Size="parent,parent" Texture="Ages_FrameNormal" SliceTextureSize="134,134" SliceCorner="60,74" SliceSize="14,2">
+
+			<!--Title-->
+			<Label ID="Title" Anchor="C,T" Offset="0,34" Style="FontFlair18" FontStyle="glow" ColorSet="White_Black" SmallCaps="24" SmallCapsLeading="0" SmallCapsType="EveryWord"/>
+
+			<!--Sub Header-->
+			<Grid Anchor="C,T" Size="parent-30,46" Offset="0,81" Texture="Controls_SubContainer2" SliceCorner="18,18" SliceSize="1,1" Color="79,62,42,255">
+				<Image ID="HelpDecoLeft" Anchor="L,C" Size="27,18" Offset="4,0" Texture="Controls_Deco3" Color="79,62,42,128" />
+				<Image ID="HelpDecoRight" Anchor="R,C" Size="27,18" Offset="4,0" Texture="Controls_Deco3" Color="79,62,42,128" />
+				<Label ID="SubHeader" Style="FontFlair14" Color="66,49,31,255" Offset="0,1" Anchor="C,C" WrapWidth="parent" SmallCaps="18" SmallCapsType="FirstWord"/>
+			</Grid>
+
+			<!--Spell Choices-->
+			<ScrollPanel ID="SpellbookScroller" Anchor="C,T" Offset="0,128" Size="auto,parent-190" Vertical="1" AutoScrollBar="1">
+				<Stack ID="SpellbookStack" Anchor="C,C" StackGrowth="Down" StackPadding="0" />
+				<ScrollBar ID="SpellbookScrollBar" Anchor="R,C"	Offset="-13,0" Size="11,parent" Style="ScrollVerticalBacking">
+					<Thumb Style="ScrollThumbAlt" />
+				</ScrollBar>
+			</ScrollPanel>
+
+			<!--Close-->
+			<Button	ID="CloseButton" Anchor="R,T" Style="CloseButtonLarge" Offset="-4,-1"/>
+
+			<!--Confirm-->
+			<GridButton ID="Confirm" Style="MainButton" Size="200,41" Anchor="C,B" Offset="0,10" String="LOC_CONFIRM" Disabled="1"/>
+		</Grid>
+	</Container>
+
+	<Instance Name="ValkranaSpellbook">
+		<GridButton ID="SelectCheck" Anchor="C,C" Size="parent-44,auto" MinSize="0,136" AutoSizePadding="0,20" Texture="Ages_ButtonComNormal" SliceTextureSize="136 " SliceCorner="67,67" SliceSize="2,2" States="7" StateOffsetIncrement="0,136">
+			<!-- Spell Icon -->
+			<Image Texture="Ages_ComIconFrame" Anchor="L,C" Offset="26,0" Size="84,84">
+				<Image ID="SpellbookIcon" Anchor="C,C" Size="86,86" Icon="ICON_COMMEMORATION_RELIGIOUS" IconSize="86"/>
+			</Image>
+
+			<!-- Spell Details -->
+			<Stack Anchor="L,C" Offset="120,0" StackGrowth="Down" StackPadding="4">
+				<Label ID="SpellbookName" Style="WindowHeader" ColorSet="White_Black" WrapWidth="490" FontStyle="Shadow"/>
+				<Label ID="SpellbookBonuses" Style="FontNormal14" ColorSet="White_Black" WrapWidth="490" FontStyle="Shadow"/>
+			</Stack>
+		</GridButton>
+	</Instance>
+
+	<!-- ======================= -->
+	<!-- ======================= -->
+	<!-- Canadian Player Pickers -->
+	<!-- ======================= -->
+	<!-- ======================= -->
+	<Container ID="PlayerPicker" Size="350, 400" Anchor="C,C" Hidden="1">
+		<!--<Image ID="PickerBackground" Anchor="C,C" Size="parent-10,parent-10" Texture="EventPopupFrame" StretchMode="Tile"/>-->
+		<Grid ID="PickerFrame" Size="parent,parent" Offset="0,0" Texture="Controls_TitleBarDark" SliceCorner="10,4" SliceSize="22,24" SliceTextureSize="42,34" Anchor="C,C">
+			<!--Sub Header-->
+			<Grid Anchor="C,T" Size="parent-30,30" Offset="0,20" Texture="Controls_SubContainer2" SliceCorner="18,18" SliceSize="1,1" Color="79,62,42,255">
+				<Label ID="PickerSubHeader" Style="FontNormal14" Color="255,255,255,255" Offset="0,1" Anchor="C,C" WrapWidth="parent" SmallCaps="18" SmallCapsType="FirstWord"/>
+			</Grid>
+
+			<!--Choices Scroller-->
+			<ScrollPanel ID="PickerScroller" Anchor="C,T" Offset="0,60" Size="300,280" Vertical="1" AutoScrollBar="1">
+				<Stack ID="PickerStack" Anchor="C,C" StackGrowth="Down" StackPadding="0" />
+				<ScrollBar ID="PickerScrollBar" Anchor="R,C" Offset="0,10" Size="11,parent" Style="ScrollVerticalBacking">
+					<Thumb Style="ScrollThumbAlt" />
+				</ScrollBar>
+			</ScrollPanel>
+
+			<!--Close
+			<Button	ID="PickerCloseButton" Anchor="R,T" Style="CloseButtonLarge" Offset="-4,-1"/>-->
+
+			<!--Confirm-->
+			<GridButton ID="PickerConfirm" Style="MainButton" Size="200,41" Anchor="C,B" Offset="0,10" String="LOC_CONFIRM" Disabled="1"/>
+		</Grid>
+	</Container>
+
+	<Instance Name="PickerInstance">
+		<GridButton ID="PickerSelect" Style="TabButton" Anchor="C,C" Size="250,41" MinSize="50,41" AutoSizePadding="20,20" Disabled="0" String="" ToolTip="Target this leader.">
+			<!--Leader Button Name-->
+			<Stack Anchor="C,C" Offset="0,1" StackGrowth="Right" StackPadding="4">
+				<Label ID="PickerName" Style="FontNormal14" ColorSet="White_Black" FontStyle="Shadow"/>
+			</Stack>
+		</GridButton>
+	</Instance>
+
+</Context>
