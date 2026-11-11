@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..ArtDefSet>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>520</build>
+		<revision>680</revision>
+	</m_Version>
+	<m_TemplateName text="VFX"/>
+	<m_RootCollections>
+		<Element>
+			<m_CollectionName text="NormalVFX"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="FX_Corp_Birth_01"/>
+							<m_XLPClass text="VFX"/>
+							<m_XLPPath text="VFX.xlp"/>
+							<m_BLPPackage text="VFX"/>
+							<m_LibraryName text="VFX"/>
+							<m_ParamName text="Asset"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="Himiko_Charm_Target"/>
+							<m_ParamName text="Audio"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="VALKRANA_SPELLBOOK_NECRO_CASTFX"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="FX_Look_At_Me_01"/>
+							<m_XLPClass text="VFX"/>
+							<m_XLPPath text="VFX.xlp"/>
+							<m_BLPPackage text="VFX"/>
+							<m_LibraryName text="VFX"/>
+							<m_ParamName text="Asset"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="Himiko_Charm_Target"/>
+							<m_ParamName text="Audio"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="VALKRANA_SPELLBOOK_DIVIN_CASTFX"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+		<Element>
+			<m_CollectionName text="MaterialVFX"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
+		<Element>
+			<m_CollectionName text="TerrainVFX"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
+		<Element>
+			<m_CollectionName text="WeaponVFX"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
+		<Element>
+			<m_CollectionName text="FootstepVFX"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
+		<Element>
+			<m_CollectionName text="MaterialTypes"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
+		<Element>
+			<m_CollectionName text="TerrainTypes"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
+	</m_RootCollections>
+</AssetObjects..ArtDefSet>
+

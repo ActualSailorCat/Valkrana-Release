@@ -3,7 +3,7 @@
   <Properties>
     <Name>[COLOR:151,48,255,255]Valkrana[ENDCOLOR] of Russia</Name>
     <Description>Adds [COLOR:151,48,255,255]Valkrana[ENDCOLOR] as an alternative leader of the Russian civilization.[NEWLINE][NEWLINE][ICON_Bullet]Unique Ability: [COLOR:151,48,255,255]Arcanum Necromantic[ENDCOLOR][NEWLINE]You gain one use of your spellbook upon first obtaining each [ICON_GreatWork_Relic] Relic. The Library has a slot for [ICON_GreatWork_Relic] Relics, which provide +2 [ICON_GreatScientist] Great Scientist points per turn. 10% chance for land units lost or destroyed in combat to be reanimated as a Skeleton under your control. Unlocks the Skeleton unit.[NEWLINE][NEWLINE][ICON_Bullet]Unique Unit: [COLOR:151,48,255,255]Skeleton[ENDCOLOR][NEWLINE]Unique long-lasting melee unit that replaces the warrior. Gains +10 [ICON_Strength] Combat Strength when the Library is first constructed, and +20 [ICON_Strength] Combat Strength when the University and Research Lab are first constructed. Can repair improvements and remove features.[NEWLINE][NEWLINE][ICON_Bullet]Agenda: [COLOR:151,48,255,255]Awkward Infomonger[ENDCOLOR][NEWLINE]Valkrana is awkward, and has a permanent penalty to diplomatic score with other civilizations. Each Relic a civilization discovers will slightly but permanently improve her opinion of that civilization, up to five times. She hates civilizations that have spied on her. Valkrana's main focuses are science and espionage.</Description>
-    <Created>1794074154</Created>
+    <Created>1794363298</Created>
     <Teaser>Adds the Valkrana leader.</Teaser>
     <Authors>Sailor Cat</Authors>
     <SpecialThanks>Nyama, Adumisan, Deliverator, JNR, LastSword, Leugi, SeelingCat, iPlayGamesITA, josearte777, PhantomJ_M</SpecialThanks>
@@ -94,6 +94,7 @@
     <File>ArtDefs/Overlay.artdef</File>
     <File>ArtDefs/Units.artdef</File>
     <File>ArtDefs/Unit_Bins.artdef</File>
+    <File>ArtDefs/VFX.artdef</File>
     <File>Assets/Religion_Overlay_Ilyana.ast</File>
     <File>Assets/Religion_Pressure_Ilyana.ast</File>
     <File>Core/Sailor_Valkrana_AI.sql</File>
@@ -136,6 +137,14 @@
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_skeleton_shield_b_null</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Skull_null</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Skull_University_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_FXt_DustSmoke1_Sheet</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_FXt_Tracer_Line_Cnt_01</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_FX_BlastRing</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_FX_Crescent_soft</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_FX_GlowLens02</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_FX_Glow_Lg_01</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_FX_Glow_Soft01</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_FX_LightSource</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Knight_Armor_ao</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Knight_Armor_g</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Knight_Armor_m</File>
@@ -154,6 +163,7 @@
     <File>Platforms/MacOS/BLPs/UILensAsset.blp</File>
     <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
     <File>Platforms/MacOS/BLPs/units/units.blp</File>
+    <File>Platforms/MacOS/BLPs/VFX.blp</File>
     <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_EagleWarrior_Spawn</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Legion_CombatD</File>
@@ -181,6 +191,14 @@
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_skeleton_shield_b_null</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Skull_null</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Skull_University_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FXt_DustSmoke1_Sheet</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FXt_Tracer_Line_Cnt_01</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_BlastRing</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_Crescent_soft</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_GlowLens02</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_Glow_Lg_01</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_Glow_Soft01</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_LightSource</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Knight_Armor_ao</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Knight_Armor_g</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Knight_Armor_m</File>
@@ -199,10 +217,12 @@
     <File>Platforms/Windows/BLPs/UILensAsset.blp</File>
     <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
     <File>Platforms/Windows/BLPs/units/units.blp</File>
+    <File>Platforms/Windows/BLPs/VFX.blp</File>
     <File>Valkrana.dep</File>
     <File>XLPs/Atlas.xlp</File>
     <File>XLPs/LeaderFallbacks.xlp</File>
     <File>XLPs/UILeaders.xlp</File>
     <File>XLPs/UILensAsset.xlp</File>
+    <File>XLPs/VFX.xlp</File>
   </Files>
 </Mod>

@@ -110,6 +110,9 @@
 		<Row Tag="LOC_SPELL_4_DESCRIPTION">
 			<Text>Spawn 3 hostile skeletons near target leader's city. Targets a random plot if no leaders have been met.</Text>
 		</Row>
+		<Row Tag="LOC_SAILOR_VALKRANA_RANDOM_NAME">
+			<Text>Random</Text>
+		</Row>
 		<!--Spellbook Ability-->
 		<Row Tag="LOC_ABILITY_SAILOR_VALKRANA_SPELL2_NAME">
 			<Text>Kinetic Barrier</Text>

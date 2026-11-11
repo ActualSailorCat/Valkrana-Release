@@ -11,7 +11,7 @@ local m_spellmode:number;
 local valkTypeName		= 'LEADER_SAILOR_VALKRANA';
 local sailorSlotsProp 	= "Sailor_ValkranaSlots";
 local sailorRelicProp	= "Sailor_ValkranaObtained";
-local valkrana_debug	= false;
+local valkrana_debug	= true;
 --///////////////////////////////////////////////////////
 -- Relics
 --///////////////////////////////////////////////////////
@@ -197,6 +197,7 @@ function ValkranaSpellbook(valkranaID)
 	-- Ai don't need no interface. No divination since it doesn't really apply to AI.
 	if not Players[valkranaID]:IsHuman() then
 		local turn = Game.GetCurrentGameTurn();
+		Sailor_ValkranaSpellFX(valkranaID, 4);
 		if math.fmod(turn, 2) == 0 then
 			if math.fmod(turn, 10) <= 4 then
 				m_spellmode = 4;
@@ -335,7 +336,6 @@ end
 
 function OnConfirm()
 	local valkranaID = Game.GetLocalPlayer();
-    UI.PlaySound("Confirm_Dedication");
 	Controls.Spellbook:SetHide(true);
 	spellbookOpen = false;
 	-- Adjust slots remaining on confirm.
@@ -358,10 +358,12 @@ function OnConfirm()
 			PickerInstance(valkranaID, m_spellmode);
 			break;
 		elseif selectedSpellType == 'SPELL_2' then
+			Sailor_ValkranaSpellFX(valkranaID, 4);
 			VVLog("Player cast spell 2 from Valkrana's spellbook.");
 			GameEvents.Sailor_Valkrana_Spell2.Call(valkranaID)
 			break;
 		elseif selectedSpellType == 'SPELL_3' then
+			Sailor_ValkranaSpellFX(valkranaID, 4);
 			VVLog("Player cast spell 3 from Valkrana's spellbook.");
 			GameEvents.Sailor_Valkrana_Spell3.Call(valkranaID)
 			break;
@@ -440,6 +442,8 @@ function PickerInstance(valkranaID, m_spellmode)
 		for _, leader in ipairs(m_Leaders) do
 			CreatePicker(leader, valkranaID);
 		end
+		-- Create button for random option.
+		CreatePicker("Random", valkranaID);
 		-- How many leaders can be picked at once?
 		local selectionsAllowed = 1;
 		if m_PickerInstanceManager.m_iAllocatedInstances > 0 then
@@ -457,6 +461,7 @@ function PickerInstance(valkranaID, m_spellmode)
 		Controls.PickerSubHeader:SetText(Locale.ToUpper(Locale.Lookup("LOC_SAILOR_VALKRANA_TARGETS_SUBHEADER")));
 		UpdatePickerConfirmButton(0);
 	else
+		Sailor_ValkranaSpellFX(valkranaID, 4);
 		GameEvents.Sailor_ValkranaTargeterRand.Call(valkranaID, m_spellmode);
 	end
 end
@@ -467,8 +472,12 @@ function CreatePicker(leader, valkranaID)
 	-- Leader Text
 	local leaderText:string = "";
 	if leader ~= nil then
-		local leaderTypeName = PlayerConfigurations[leader]:GetLeaderName();
-		leaderText = Locale.Lookup(leaderTypeName);
+		if leader ~= "Random" then
+			local leaderTypeName = PlayerConfigurations[leader]:GetLeaderName();
+			leaderText = Locale.Lookup(leaderTypeName);
+		else
+			leaderText = Locale.Lookup("LOC_SAILOR_VALKRANA_RANDOM_NAME");
+		end
 	end
 	instance.PickerName:SetText(leaderText);
 	instance.PickerSelect:SetSelected(false);
@@ -521,11 +530,17 @@ function UpdatePickerConfirmButton(currentlySelected:number)
 end
 
 function OnPickerConfirm(valkranaID)
-    UI.PlaySound("Confirm_Dedication");
+    Sailor_ValkranaSpellFX(valkranaID, m_spellmode);
 	Controls.PlayerPicker:SetHide(true);
 	-- Moving spell casting to target designation.
 	for _, selectedLeaderType in ipairs(m_SelectedLeaders) do
-		GameEvents.Sailor_ValkranaTargeter.Call(selectedLeaderType, valkranaID, m_spellmode);
+		if selectedLeaderType ~= "Random" then
+			VVLog("Divination cast on leader.");
+			GameEvents.Sailor_ValkranaTargeter.Call(selectedLeaderType, valkranaID, m_spellmode);
+		else
+			VVLog("Divination cast on random target.");
+			GameEvents.Sailor_ValkranaTargeterRand.Call(valkranaID, m_spellmode);
+		end
 	end
 	m_SelectedLeaders = {};
 end
@@ -592,7 +607,6 @@ end
 
 function Sailor_IsValkrana(playerID)
 	if playerID and playerID ~= -1 then
-		VVLog("Sailor_IsValkrana playerID "..playerID);
 		if PlayerConfigurations[playerID]:GetLeaderTypeName() == valkTypeName then
 			return true;
 		else
@@ -635,6 +649,36 @@ function Sailor_GreatWorkSniffer(playerID)
 	end
 end
 
+function Sailor_ValkranaScried()
+	local scry = Game:GetProperty("Sailor_ValkranaScried");
+	if scry and scry ~= "Nuffin" then
+		if Game.GetLocalPlayer() == scry.tgt then
+			UI.LookAtPlotScreenPosition(scry.x, scry.y, 0.5, 0.5);
+			Sailor_ValkranaSpellFX(scry.tgt, 1, scry.x, scry.y);
+		end
+		GameEvents.Sailor_Valkrana_SetProp.Call("Sailor_ValkranaScried", "", "Nuffin");
+	end
+end
+
+local spellFX = {
+	[1] = "VALKRANA_SPELLBOOK_DIVIN_CASTFX",
+	[2] = "VALKRANA_SPELLBOOK_NECRO_CASTFX",
+	[3] = "VALKRANA_SPELLBOOK_NECRO_CASTFX",
+	[4] = "VALKRANA_SPELLBOOK_NECRO_CASTFX",
+};
+
+function Sailor_ValkranaSpellFX(playerID, cast, x, y)
+	local city = Players[playerID]:GetCities():GetCapitalCity();
+	x = x or city:GetX();
+	y = y or city:GetY();
+	if cast then
+		WorldView.PlayEffectAtXY(spellFX[cast], x, y);
+	else
+		VVLog("SpellFX called with nil cast arg.");
+		WorldView.PlayEffectAtXY(spellFX[4], x, y);
+	end
+end
+
 function VVLog(msg)
 	if valkrana_debug == true then
 		print(msg);
@@ -662,6 +706,7 @@ function Initialize()
 				Events.GreatWorkCreated.Add(Sailor_ValkranaRelicCreated);		-- Relic via Creation
 				GameEvents.OnGameTurnStarted.Add(Sailor_RelicGSP);				-- Relic GSP
 				Events.DiplomacyStatement.Add(Sailor_ValkranaKudo);				-- Kudo Injector
+				Events.GamePropertyChanged.Add(Sailor_ValkranaScried);    -- Look at Scry, and trigger VFX.
 				-- UI Stuff
 				--Events.TurnBegin.Add(Sailor_SpellbookBuffer);					-- Testing Only
 				Events.LocalPlayerChanged.Add(Sailor_ValkranaLocalPlayer);		-- Local UI Handler

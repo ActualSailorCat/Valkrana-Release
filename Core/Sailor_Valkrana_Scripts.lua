@@ -20,7 +20,7 @@ local valkUnitName      = 'UNIT_SAILOR_VALKRANA_UU';
 local libAbility        = 'ABILITY_SAILOR_VALKRANA_UU_LIBRARY';
 local uniAbility        = 'ABILITY_SAILOR_VALKRANA_UU_UNIVERSITY';
 local labAbility        = 'ABILITY_SAILOR_VALKRANA_UU_RESEARCHLAB';
-local valkrana_debug    = false;
+local valkrana_debug    = true;
 --///////////////////////////////////////////////////////
 -- Reanimation Functions
 --///////////////////////////////////////////////////////
@@ -102,7 +102,7 @@ function Sailor_Valkrana_Reanimation(tUnitData, ownerID, valkID, yahooID)
             return;
         end
     end
-    local iskeleRoll = Game.GetRandNum(100, "Skeleton Reanimation, Attacker") + 1;
+    local iskeleRoll = Game.GetRandNum(100, "Valkrana Skeleton Reanimation, Attacker") + 1;
     local iChance = reanimationChance;
     -- Barb and Free City Nerf
     if yahooID > 61 then
@@ -209,66 +209,75 @@ function Sailor_ValkranaTargeter(leaderID, valkranaID, spellmode)
     local pPlayer       = Players[leaderID];
     local pPlayerCities = pPlayer:GetCities();
     local tTargets      = {};
-    local cityNum       = pPlayerCities:GetCount();
     -- Grab Cities
     for i, city in pPlayerCities:Members() do
-        table.insert(tTargets, city);
+        tTargets[i] = city;
     end
-    if cityNum > 0 then
+    if next(tTargets) ~= nil then
         -- First check for fresh city. Only do this for Scry.
         if spellmode == 1 then
-            local repeatstop = false;
-            repeat
-                local iRoll = Game.GetRandNum(cityNum, "Target Roller") + 1
-                for i, target in ipairs(tTargets) do
-                    if i == iRoll then
-                        local targetX, targetY = target:GetX(), target:GetY();
-                        local status = vPlayer:GetProperty("SailorValkranaDivination_" .. targetX .. targetY);
-                        if status == nil then
-                            Sailor_Valkrana_Spell1(valkranaID, targetX, targetY, vPlayer);
-                            return;
-                        end
-                    end
-                end
-                repeatstop = true;
-            until (repeatstop == true)
-        end
-        -- No fresh cities. Holy Tolstoy stop casting this spell. (Or just casting Skeleport.)
-        local iRoll2 = Game.GetRandNum(cityNum, "Target Roller 2") + 1
-        for i, _target in ipairs(tTargets) do
-            if i == iRoll2 then
-                local _targetX, _targetY = _target:GetX(), _target:GetY();
-                if spellmode == 1 then
-                    Sailor_Valkrana_Spell1(valkranaID, _targetX, _targetY);
-                    return;
-                end
-                if spellmode == 4 then
-                    Sailor_Valkrana_Spell4(valkranaID, _targetX, _targetY);
+            for _, target in ipairs(tTargets) do
+                local x, y = target:GetX(), target:GetY();
+                local status = vPlayer:GetProperty("SailorValkranaDivination_" .. x .. y);
+                if status == nil then
+                    Sailor_Valkrana_Spell1(valkranaID, x, y, vPlayer);
                     return;
                 end
             end
         end
+        -- No fresh cities. Holy Tolstoy stop casting this spell. (Or just casting Skeleport.)
+        local target = false;
+        target = tTargets[1];
+        repeat
+            local r = Game.GetRandNum(#tTargets, "Valkrana Target Roller") + 1;
+            target = tTargets[r];
+            if #tTargets > 1 then
+                table.remove(tTargets, r);
+            end
+        until((target) or #tTargets <= 1)
+        if target then
+            local x, y = target:GetX(), target:GetY();
+            if spellmode == 1 then
+                Sailor_Valkrana_Spell1(valkranaID, x, y);
+                return;
+            end
+            if spellmode == 4 then
+                Sailor_Valkrana_Spell4(valkranaID, x, y);
+                return;
+            end
+        else
+            VVLog("Spell targeter returned nil. Targeting a random plot instead.");
+            Sailor_ValkranaTargeterRand(valkranaID, spellmode);
+        end
     else
-        VVLog("No cities for spell targeter? Huh?");
+        VVLog("No cities for spell targeter? Huh? Targeting a random plot instead.");
+        Sailor_ValkranaTargeterRand(valkranaID, spellmode);
     end
 end
 GameEvents.Sailor_ValkranaTargeter.Add(Sailor_ValkranaTargeter);
 
 function Sailor_ValkranaTargeterRand(valkranaID, spellmode)
-    local tLandPlots = Sailor_GetLandPlots();
-    local iRoll = Game.GetRandNum(#tLandPlots, "Plot Roller") + 1
-    for i, v in ipairs(tLandPlots) do
-        if i == iRoll then
-            local randX, randY    = v:GetX(), v:GetY();
-            if spellmode == 1 then
-                Sailor_Valkrana_Spell1(valkranaID, randX, randY);
-                return;
-            end
-            if spellmode == 4 then
-                Sailor_Valkrana_Spell4(valkranaID, randX, randY);
-                return;
-            end
+    local tLandPlots = Sailor_GetLandPlots(true, valkranaID);
+    local targetPlot = false;
+    repeat
+        local r = Game.GetRandNum(#tLandPlots, "Valkrana Target Plot Roller");
+        targetPlot = tLandPlots[r];
+        if #tLandPlots > 1 then
+            table.remove(tLandPlots, r);
         end
+    until((targetPlot) or #tLandPlots <= 1)
+    if targetPlot ~= nil then
+        local randX, randY = targetPlot:GetX(), targetPlot:GetY();
+        if spellmode == 1 then
+            Sailor_Valkrana_Spell1(valkranaID, randX, randY);
+            return;
+        end
+        if spellmode == 4 then
+            Sailor_Valkrana_Spell4(valkranaID, randX, randY);
+            return;
+        end
+    else
+        VVLog("Random target found no valid plot.");
     end
 end
 GameEvents.Sailor_ValkranaTargeterRand.Add(Sailor_ValkranaTargeterRand);
@@ -291,6 +300,7 @@ function Sailor_Valkrana_Spell1(valkranaID, iX, iY)
         end
     end
     vPlayer:SetProperty("SailorValkranaDivination_" .. iX .. iY, divRadius);
+    Game:SetProperty("Sailor_ValkranaScried", { tgt = valkranaID, x = iX, y = iY });
 end
 
 -- // Spell 2 Abjuration
@@ -409,7 +419,7 @@ function Sailor_Valkrana_Spell4(valkranaID, iX, iY)
     local skeleNum = 3;
     local i = 0;
     while i < skeleNum do
-        local plotRoll = Game.GetRandNum(#tPlots, "Skeleport Plot Roller");
+        local plotRoll = Game.GetRandNum(#tPlots, "Valkrana Skeleport Plot Roller");
         for n, _plot in ipairs(tPlots) do
             if n == plotRoll then
                 UnitManager.InitUnit(63, valkUnitName, _plot.pX, _plot.pY);
@@ -480,15 +490,9 @@ function Sailor_ValkranaFreeSkeletons(playerID, defeatType, eventID)
     local spawnNum  = 3 + (gameDifficultyIndex * 2) + iEra;
     local i         = 0;
     while i < spawnNum do
-        local tLandPlots = Sailor_GetLandPlots();
-        local iRoll = Game.GetRandNum(#tLandPlots, "Plot Roller") + 1;
-        local plot;
-        for n, v in ipairs(tLandPlots) do
-            if n == iRoll then
-                plot = v;
-                break;
-            end
-        end
+        local tLandPlots = Sailor_GetLandPlots(false);
+        local r = Game.GetRandNum(#tLandPlots, "Valkrana Plot Roller") + 1;
+        local plot = tLandPlots[r];
 		-- Is the plot valid for placement?
         if plot and not plot:IsCity() and not plot:IsImpassable() then
             local pX, pY = plot:GetX(), plot:GetY();
@@ -557,15 +561,22 @@ function Sailor_IsValkrana(playerID)
 	end
 end
 
-function Sailor_GetLandPlots()
+function Sailor_GetLandPlots(is_targetonly, playerID)
     local temp = {};
     local continents = Map.GetContinentsInUse();
+    local i = 1;
     for _, v in ipairs(continents) do
         local continentPlots = Map.GetContinentPlots(v);
         for _, p in ipairs(continentPlots) do
             local plot = Map.GetPlotByIndex(p);
             if not plot:IsWater() then
-                table.insert(temp, plot);
+                if not is_targetonly then
+                    temp[i] = plot;
+                    i = i + 1;
+                elseif playerID and plot:GetOwner() ~= playerID then
+                    temp[i] = plot;
+                    i = i + 1;
+                end
             end
         end
     end
